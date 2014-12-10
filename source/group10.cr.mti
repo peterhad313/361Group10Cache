@@ -1,0 +1,502 @@
+C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cmp_n
+-- Compiling architecture behavioral of cmp_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_32
+-- Compiling architecture dataflow of nand_gate_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_n
+-- Compiling architecture dataflow of xor_gate_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_4
+-- Compiling architecture struct of or_4
+-- Loading entity or_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity csramL1Cache
+-- Compiling architecture struct of csramL1Cache
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_24.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_24.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_24
+-- Compiling architecture structural of mux_32
+-- Loading entity mux_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_a
+-- Compiling architecture behavioral of dffr_a
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_32
+-- Compiling architecture dataflow of xor_gate_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_4_to_1_bit
+-- Compiling architecture struct of mux_4_to_1_bit
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux
+-- Loading entity or_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd {0 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity l2cache
+-- Compiling architecture struct of l2cache
+-- Loading entity mux_16_to_1_bit
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(61): near ")": syntax error
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(64): Statement cannot be labeled.
+-- Loading entity and_gate
+-- Loading package NUMERIC_STD
+-- Loading entity cmp_n
+-- Loading entity or_4
+** Error: (vcom-11) Could not find work.mux_4_to_1_32bit.
+
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(92): (vcom-1195) Cannot find expanded name "work.mux_4_to_1_32bit".
+
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(92): Unknown expanded name.
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(98): VHDL Compiler exiting
+
+} {9.0 11.0 15.0 16.0 17.0 18.0 19.0 21.0} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_n
+-- Compiling architecture dataflow of and_gate_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate
+-- Compiling architecture dataflow of nand_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_n
+-- Compiling architecture dataflow of not_gate_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_n
+-- Compiling architecture behavioral of mux_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fulladder_n
+-- Compiling architecture behavioral of fulladder_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate
+-- Compiling architecture dataflow of xor_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity cache_test
+-- Compiling architecture mix of cache_test
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_16_to_1
+-- Compiling architecture struct of mux_16_to_1
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux_24
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_32
+-- Compiling architecture dataflow of not_gate_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_16_to_1_32bit
+-- Compiling architecture struct of mux_16_to_1_32bit
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff_24
+-- Compiling architecture struct of dff_24
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture dataflow of nor_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity valid
+-- Compiling architecture struct of valid
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux
+-- Loading entity dff
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux
+-- Compiling architecture structural of mux
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd {0 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity l1Cache
+-- Compiling architecture struct of l1Cache
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd(27): near "signal": expecting ';'
+-- Loading entity csramL1Cache
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd(46): (vcom-1450) Actual (indexed name) for formal "we" is not a static signal name.
+
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd(46): (vcom-1136) Unknown identifier "DECODETHIS".
+
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd(46): (vcom-1136) Unknown identifier "set_0_Out".
+
+-- Loading entity dff
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd(47): (vcom-1136) Unknown identifier "valid_0_in".
+
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd(47): (vcom-1136) Unknown identifier "valid_0_Out".
+
+-- Loading entity dff_24
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd(48): (vcom-1136) Unknown identifier "tag_0_in".
+
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd(48): (vcom-1136) Unknown identifier "tag_0_Out".
+
+** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd(51): VHDL Compiler exiting
+
+} {8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0 17.0 18.0 19.0 20.0 22.0 23.0 24.0 25.0 26.0 27.0} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_n
+-- Compiling architecture dataflow of nor_gate_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/eecs361_gates.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/eecs361_gates.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package eecs361_gates
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tag
+-- Compiling architecture struct of tag
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux_24
+-- Loading entity dff_24
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity csram
+-- Compiling architecture behavioral of csram
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture structural of mux_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture struct of mux_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_16_to_1_bit
+-- Compiling architecture struct of mux_16_to_1_bit
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/eecs361.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/eecs361.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package eecs361
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity sram
+-- Compiling architecture behavioral of sram
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_n
+-- Compiling architecture dataflow of or_gate_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fulladder_32
+-- Compiling architecture behavioral of fulladder_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate
+-- Compiling architecture dataflow of xnor_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff
+-- Compiling architecture behavioral of dff
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading entity dec_n
+-- Compiling entity dec_4
+-- Compiling architecture struct of dec_4
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate
+-- Compiling architecture dataflow of not_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SetL1
+-- Compiling architecture struct of SetL1
+-- Loading entity csramL1Cache
+-- Loading entity valid
+-- Loading entity tag
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_n
+-- Compiling architecture dataflow of xnor_gate_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_32
+-- Compiling architecture dataflow of or_gate_32
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity syncram
+-- Compiling architecture behavioral of syncram
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_n
+-- Compiling architecture dataflow of nand_gate_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dec_n
+-- Compiling architecture behavioral of dec_n
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr
+-- Compiling architecture behavioral of dffr
+
+} {} {}}

@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 -- 16-to-1 mux with 24-bit inputs
-entity mux_16_to_1_bit_bit is
+entity mux_16_to_1_bit is
    port( 
 		sel	: in std_logic_vector(3 downto 0); -- the selector switches
 		src0, src1, src2, src3, src4, src5, src6, src7 : in std_logic; --the options

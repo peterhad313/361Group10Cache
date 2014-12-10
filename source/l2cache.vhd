@@ -51,7 +51,14 @@ architecture struct of l2cache is
 	signal and3 : std_logic;
 	signal and4 : std_logic;
 	
+	--signals for muxes for indexes
+	signal set1_mux, set2_mux, set3_mux, set4_mux : std_logic_vector(23 downto 0);
+	
 begin
+
+	--muxes for indexes
+	set1_valid_mux : entity work.mux_4_to_1_bit
+		port map ();
 	
 	--and gates for detecting both valid bits and tag matches
 	and1_map : entity work.and_gate 
@@ -82,7 +89,7 @@ begin
 		port map (a =>  and1, b => and2, c => and3, d => and4, z => hit);
 		
 	--mux for final data selection
-	mux1_map : entity work.mux_4_to_1
+	mux1_map : entity work.mux_4_to_1_32bit
 		port map(sel(0) => and1, sel(1) => and2, 
 		sel(2) => and3, sel(3) => and4,
 		src0 => set1_data, src1 => set2_data,

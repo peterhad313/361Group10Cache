@@ -10,42 +10,42 @@ entity memory_hierarchy is
 	--clock
 	clk : in std_logic;
 	--EN = ‘1’ means the inputs are ready in the coming rising edge.
-	EN : in std_logic;
+	EN : in std_logic;
 	--WR = ‘1’ means the next request is a write request.
-	WR : in std_logic;
+	WR : in std_logic;
 	--Addr is the address of the request.
-	Addr : in std_logic_vector(31 downto 0);
+	Addr : in std_logic_vector(31 downto 0);
 	--DataIn is the data to be written. It is only valid when the request is a write request.
-	DataIn : in std_logic_vector(31 downto 0);
+	DataIn : in std_logic_vector(31 downto 0);
 	--Ready = ‘1’ means your cache have finish the current request. Before you rise Ready to ‘1’, your cache should either finished the write
 	--request, or you have get the data of the read request at DataOut port.
-	Ready : out std_logic;
+	Ready : out std_logic;
 	--DataOut is the data for read requests.
-	DataOut : out std_logic_vector(31 downto 0);
+	DataOut : out std_logic_vector(31 downto 0);
 	--Below are the counters of your caches.
-	l1_hit_cnt : out std_logic_vector(31 downto 0);
-	l1_miss_cnt : out std_logic_vector(31 downto 0);
-	l1_evict_cnt : out std_logic_vector(31 downto 0);
-	l2_hit_cnt : out std_logic_vector(31 downto 0);
-	l2_miss_cnt : out std_logic_vector(31 downto 0);
+	l1_hit_cnt : out std_logic_vector(31 downto 0);
+	l1_miss_cnt : out std_logic_vector(31 downto 0);
+	l1_evict_cnt : out std_logic_vector(31 downto 0);
+	l2_hit_cnt : out std_logic_vector(31 downto 0);
+	l2_miss_cnt : out std_logic_vector(31 downto 0);
 	l2_evict_cnt : out std_logic_vector(31 downto 0)
 	);
 end memory_hierarchy;
 
 architecture struct of memory_hierarchy is 
 	-- Signals for hits and misses
-	signal hit_L1, hit_L2, miss_L1, miss_L2 : std_logic;
+	signal hit_L1, hit_L2, miss_L1, miss_L2 : std_logic;
 	-- Temporary data signals
 	signal dataOut_L1, dataOut_L2, dataOut_caches, dataOut_mem : std_logic_vector(31 downto 0);
 	--Logic signals for L2
-	signal wr_L2 : std_logic;
+	signal wr_L2 : std_logic;
 	--Logic signals for memory
-	signal MemActive : std_logic;
+	signal MemActive : std_logic;
 
 begin
 	--Level 1 cache
 	L1: entity work.l1Cache port map (
-		clock=>clk, addr=>Addr, write_data=>DataIn, writeEn=>WR, hit=>hit_L1, miss=>miss_L1, dataOut=>dataOut_L1 --writeBack is not specified
+		clock=>clk, addr=>Addr, write_data=>DataIn, write_en=>WR, hit=>hit_L1, miss=>miss_L1, dataOut=>dataOut_L1 --writeBack is not specified
 		);
 
 	--Level 2 cache, gets initial Addr and Data_In
@@ -64,9 +64,9 @@ begin
 		x=>miss_L1, y=>miss_L2, z=>MemActive
 		);
 	mem: entity work.sram 
-		generic map ("something")
+		generic map (mem_file<="something")
 		port map (
-			cs=>MemActive, oe=>'1', we=>'0', addr=>Addr, din=>DataIn, dout=>dataOut_mem
+			cs=>MemActive, oe=>'1', addr=>Addr, din=>DataIn, dout=>dataOut_mem
 		);
 
 	--Muxes to select DataOut from data signals

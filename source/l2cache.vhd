@@ -10,6 +10,7 @@ entity l2cache is
 	writeIn : in std_logic;
 	
 	hit : out std_logic;
+	miss : out std_logic;
 	dataOut : out std_logic_vector(31 downto 0)
 	
 	);
@@ -53,6 +54,8 @@ architecture struct of l2cache is
 	
 	--signals for muxes for indexes
 	signal set1_mux, set2_mux, set3_mux, set4_mux : std_logic_vector(23 downto 0);
+
+	signal hit_temp : std_logic;
 	
 begin
 
@@ -86,8 +89,13 @@ begin
 		
 	--or gate for hit
 	or1_map : entity work.or_4
-		port map (a =>  and1, b => and2, c => and3, d => and4, z => hit);
-		
+		port map (a =>  and1, b => and2, c => and3, d => and4, z => hit_temp);
+	hit<=hit_temp;
+
+	--not gate for miss
+	not_hit : entity work.not_gate
+		port map (x => hit_temp, z=>miss);
+
 	--mux for final data selection
 	mux1_map : entity work.mux_4_to_1_32bit
 		port map(sel(0) => and1, sel(1) => and2, 

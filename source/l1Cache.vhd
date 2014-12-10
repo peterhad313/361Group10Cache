@@ -7,8 +7,9 @@ entity l1Cache is
 	addr  : in std_logic_vector (31 downto 0);
 	write_data : in std_logic_vector(31 downto 0);
 	writeEn : in std_logic;
+
 	hit : out std_logic;
-	--miss : out std_logic;
+	miss : out std_logic;
 	dataOut: out std_logic_vector(31 downto 0);
 	writeBack: out std_logic
 
@@ -36,6 +37,7 @@ architecture struct of l1Cache is
 	signal tagCmp: std_logic;
 	signal validsMuxed : std_logic;
 	signal dataMuxed : std_logic_vector(31 downto 0);
+	signal hit_temp : std_logic;
 
 begin
 tag<=addr(31 downto 8);
@@ -72,7 +74,9 @@ mux3: entity work.mux_16_to_1_32bit port map (setIndex, set_0_Out, set_1_Out, se
 								 		set_8_Out,set_9_Out, set_10_Out, set_11_Out, set_12_Out,set_13_Out, set_14_Out, set_15_Out, dataMuxed);
 
 cmp: entity work.cmp_n generic map (n=>24) port map (a=>tagsMuxed, b=>tag, a_eq_b=>tagCmp);
-and0: entity work.and_gate port map (tagCmp, validsMuxed, hit);
+and0: entity work.and_gate port map (tagCmp, validsMuxed, hit_temp);
+not0: entity work.not_gate port map (hit_temp, miss);
+hit<=hit_temp;
 dataOut<= dataMuxed;
 
 end struct; -- struct

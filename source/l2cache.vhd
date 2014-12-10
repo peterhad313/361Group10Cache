@@ -80,3 +80,12 @@ begin
 	--or gate for hit
 	or1_map : entity work.or_4
 		port map (a =>  and1, b => and2, c => and3, d => and4, z => hit);
+		
+	--mux for final data selection
+	mux1_map : entity work.mux_4_to_1
+		port map(sel(0) => and1, sel(1) => and2, 
+		sel(2) => and3, sel(3) => and4,
+		src0 => set1_data, src1 => set2_data,
+		src2 => set3_data, src3 => set4_data, z => dataOut);
+		
+end struct;

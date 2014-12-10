@@ -17,12 +17,15 @@ entity SetL1 is
 end SetL1;
 
 architecture struct of SetL1 is
-
+ signal validTemp: std_logic;
+ signal validOutTemp : std_logic;
 
 begin
 
 csram0: entity work.csramL1Cache port map('1','1',we,block_offset,data_block_in,data_block_out);
-valid0: entity work.valid port map (clock, we, valid_in,valid_out);
+or0: entity work.or_gate port map (validOutTemp, we, validTemp);
+valid0: entity work.valid port map (clock, we, validTemp,validOutTemp);
 tag0: entity work.tag port map (clock, we, tag_in, tag_out);
+valid_out<=validOutTemp;
 
 end architecture ; -- struct

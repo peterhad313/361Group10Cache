@@ -32,7 +32,7 @@ Z12 tExplicit 1
 Adataflow
 R2
 R3
-DEx4 work 8 and_gate 0 22 U_Y]TlgZX3N<gl1:ZjH622
+Z13 DEx4 work 8 and_gate 0 22 U_Y]TlgZX3N<gl1:ZjH622
 l14
 L13
 Vd[k?[?OzHDKLB[j[<6]@h0
@@ -52,19 +52,19 @@ R1
 R2
 R3
 R0
-Z13 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd
-Z14 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd
+Z14 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd
+Z15 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd
 l0
 L5
 Ve3_4FiC7KKo76^^ZW`RA;2
 !s100 KSRcRaLU>DVF[looI[MAB1
 R6
 32
-Z15 !s110 1418180534
+Z16 !s110 1418180534
 !i10b 1
-Z16 !s108 1418180534.165000
-Z17 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd|
-Z18 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd|
+Z17 !s108 1418180534.165000
+Z18 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd|
+Z19 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_32.vhd|
 !i113 1
 R11
 R12
@@ -78,11 +78,11 @@ V<bAJA9cz_Xj[EEH5NMD^Y0
 !s100 7eGi4aE3j0c6RNWj8;hYn2
 R6
 32
-R15
-!i10b 1
 R16
+!i10b 1
 R17
 R18
+R19
 !i113 1
 R11
 R12
@@ -91,19 +91,19 @@ R1
 R2
 R3
 R0
-Z19 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd
-Z20 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd
+Z20 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd
+Z21 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd
 l0
 L5
 VZDz=h^?4N8=QG_lZb8Y^N3
 !s100 BgW1<b848=U4b0Fm5IB4V0
 R6
 32
-R15
+R16
 !i10b 1
-Z21 !s108 1418180534.955000
-Z22 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd|
-Z23 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd|
+Z22 !s108 1418180534.955000
+Z23 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd|
+Z24 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd|
 !i113 1
 R11
 R12
@@ -117,42 +117,42 @@ VcdaRWB<_e`=84b7fYYV0b0
 !s100 TlhKh<Ln2>7=AINQTiM_c3
 R6
 32
-R15
+R16
 !i10b 1
-R21
 R22
 R23
+R24
 !i113 1
 R11
 R12
 Ecache_test
 R1
-Z24 DPx4 work 13 eecs361_gates 0 22 Y`H6JLa]eolRP`lSh`[1R3
-Z25 DPx4 work 7 eecs361 0 22 ^^AF]TLfaMEJ7lm=DbD:[0
-Z26 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z25 DPx4 work 13 eecs361_gates 0 22 Y`H6JLa]eolRP`lSh`[1R3
+Z26 DPx4 work 7 eecs361 0 22 ^^AF]TLfaMEJ7lm=DbD:[0
+Z27 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R2
 R3
 R0
-Z27 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd
-Z28 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd
+Z28 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd
+Z29 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd
 l0
 L7
 VCHDjezf5mPenFA@4OTMDc0
 !s100 g5=l_MS3VNVDM1kz6kNY=0
 R6
 32
-Z29 !s110 1418180503
+Z30 !s110 1418180503
 !i10b 1
-Z30 !s108 1418180503.569000
-Z31 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd|
-Z32 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd|
+Z31 !s108 1418180503.569000
+Z32 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd|
+Z33 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cache_test.vhd|
 !i113 1
 R11
 R12
 Amix
-R24
 R25
 R26
+R27
 R2
 R3
 DEx4 work 10 cache_test 0 22 CHDjezf5mPenFA@4OTMDc0
@@ -162,85 +162,85 @@ Vhgd?klN5RI`<b?kdQhKQC2
 !s100 <IJ4D27QT4hhW:9hgTNV23
 R6
 32
-R29
-!i10b 1
 R30
+!i10b 1
 R31
 R32
+R33
 !i113 1
 R11
 R12
 Ecmp_n
 R1
-R26
+R27
 R2
 R3
 R0
-Z33 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd
-Z34 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd
+Z34 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd
+Z35 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd
 l0
 L5
 V[>7ZP_42a4D:Fmd]7;Mei2
 !s100 Q@FG57Y^f`a49FFnA^8XA3
 R6
 32
-Z35 !s110 1418180504
+Z36 !s110 1418180504
 !i10b 1
-Z36 !s108 1418180504.757000
-Z37 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd|
-Z38 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd|
+Z37 !s108 1418180504.757000
+Z38 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd|
+Z39 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R26
+R27
 R2
 R3
-DEx4 work 5 cmp_n 0 22 [>7ZP_42a4D:Fmd]7;Mei2
+Z40 DEx4 work 5 cmp_n 0 22 [>7ZP_42a4D:Fmd]7;Mei2
 l23
 L22
 Vm4akQmO[iagF^;X2^[E];1
 !s100 k3J96n;G0?;fYl<Wkbnk=1
 R6
 32
-R35
-!i10b 1
 R36
+!i10b 1
 R37
 R38
+R39
 !i113 1
 R11
 R12
 Ecsram
 R1
-R26
-Z39 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
-Z40 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z41 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R27
+Z41 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z42 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z43 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R2
 R3
 R0
-Z42 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd
-Z43 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd
+Z44 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd
+Z45 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd
 l0
 L12
 VccB:eUz6G[KU;5]K^_WMh0
 !s100 G3Pibi36FAWWliCKjYRFl3
 R6
 32
-Z44 !s110 1418180505
+Z46 !s110 1418180505
 !i10b 1
-Z45 !s108 1418180505.885000
-Z46 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd|
-Z47 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd|
+Z47 !s108 1418180505.885000
+Z48 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd|
+Z49 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/csram.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R26
-R39
-R40
+R27
 R41
+R42
+R43
 R2
 R3
 DEx4 work 5 csram 0 22 ccB:eUz6G[KU;5]K^_WMh0
@@ -250,79 +250,79 @@ VDhVd`XJ]KB3I=i>:E`f2h3
 !s100 D^5mU=C?a[K@12<8cz96E0
 R6
 32
-R44
-!i10b 1
-R45
 R46
+!i10b 1
 R47
+R48
+R49
 !i113 1
 R11
 R12
 Ecsraml1cache
-Z48 w1418174107
+Z50 w1418174107
 R2
 R3
 R0
-Z49 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd
-Z50 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd
+Z51 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd
+Z52 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd
 l0
 L4
 VC:[QRMA2H1_N@kVbmOHIR3
 !s100 BP7ek@GJXBGQ9_Z5JVG_z3
 R6
 32
-Z51 !s110 1418180487
+Z53 !s110 1418180487
 !i10b 1
-Z52 !s108 1418180487.308000
-Z53 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd|
-Z54 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd|
+Z54 !s108 1418180487.308000
+Z55 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd|
+Z56 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/csramL1Cache.vhd|
 !i113 1
 R11
 R12
 Astruct
 R2
 R3
-Z55 DEx4 work 12 csraml1cache 0 22 C:[QRMA2H1_N@kVbmOHIR3
+Z57 DEx4 work 12 csraml1cache 0 22 C:[QRMA2H1_N@kVbmOHIR3
 l34
 L15
 V5jK_c0Yb=23X8F:H5Xna<1
 !s100 gHohCFd?3zN35@ShhQLB02
 R6
 32
-R51
-!i10b 1
-R52
 R53
+!i10b 1
 R54
+R55
+R56
 !i113 1
 R11
 R12
 Edec_4
-Z56 w1418175825
-Z57 DEx4 work 5 dec_n 0 22 7iJ?jPYN_emZ4:^;hN;]G2
-R26
+Z58 w1418175825
+Z59 DEx4 work 5 dec_n 0 22 7iJ?jPYN_emZ4:^;hN;]G2
+R27
 R2
 R3
 R0
-Z58 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd
-Z59 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd
+Z60 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd
+Z61 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd
 l0
 L6
 V2OU;PD7TSd3kWGCMa_>Ak2
 !s100 LJ>ZR:[aERmW6I7Xz6SHO2
 R6
 32
-Z60 !s110 1418180488
+Z62 !s110 1418180488
 !i10b 1
-Z61 !s108 1418180488.073000
-Z62 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd|
-Z63 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd|
+Z63 !s108 1418180488.073000
+Z64 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd|
+Z65 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dec_4.vhd|
 !i113 1
 R11
 R12
 Astruct
-R57
-R26
+R59
+R27
 R2
 R3
 DEx4 work 5 dec_4 0 22 2OU;PD7TSd3kWGCMa_>Ak2
@@ -332,52 +332,52 @@ Vk@SBLdIW5S3<kCEl]?cE00
 !s100 KZXW<<R;ai`bPXPR?eVe?3
 R6
 32
-R60
-!i10b 1
-R61
 R62
+!i10b 1
 R63
+R64
+R65
 !i113 1
 R11
 R12
 Edec_n
 R1
-R26
+R27
 R2
 R3
 R0
-Z64 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd
-Z65 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd
+Z66 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd
+Z67 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd
 l0
 L5
 V7iJ?jPYN_emZ4:^;hN;]G2
 !s100 TFYiE@E?[zcS;UYZJZ]e]0
 R6
 32
-Z66 !s110 1418180507
+Z68 !s110 1418180507
 !i10b 1
-Z67 !s108 1418180507.064000
-Z68 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd|
-Z69 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd|
+Z69 !s108 1418180507.064000
+Z70 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd|
+Z71 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dec_n.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R26
+R27
 R2
 R3
-R57
+R59
 l16
 L15
 V@Fb=@53n>MNEImDCn?Ze>0
 !s100 55g?PRCWKJcmYh6jzUGZ80
 R6
 32
-R66
-!i10b 1
-R67
 R68
+!i10b 1
 R69
+R70
+R71
 !i113 1
 R11
 R12
@@ -386,76 +386,76 @@ R1
 R2
 R3
 R0
-Z70 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd
-Z71 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd
+Z72 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd
+Z73 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd
 l0
 L4
 VmKZ>[LGJ@mPeC8i@F[]]G1
 !s100 6RF6aKO;bLUdc^Uo1TlJA1
 R6
 32
-Z72 !s110 1418180508
+Z74 !s110 1418180508
 !i10b 1
-Z73 !s108 1418180508.216000
-Z74 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd|
-Z75 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd|
+Z75 !s108 1418180508.216000
+Z76 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd|
+Z77 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dff.vhd|
 !i113 1
 R11
 R12
 Abehavioral
 R2
 R3
-Z76 DEx4 work 3 dff 0 22 mKZ>[LGJ@mPeC8i@F[]]G1
+Z78 DEx4 work 3 dff 0 22 mKZ>[LGJ@mPeC8i@F[]]G1
 l13
 L12
 V?G=X8dlZ@2I_O[J]5HOIT1
 !s100 YQ?Mf61<mPk;FAfQWmbPe2
 R6
 32
-R72
-!i10b 1
-R73
 R74
+!i10b 1
 R75
+R76
+R77
 !i113 1
 R11
 R12
 Edff_24
-R48
+R50
 R2
 R3
 R0
-Z77 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd
-Z78 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd
+Z79 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd
+Z80 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd
 l0
 L4
 V]N;fJC9O;`WCfIA_QzO6V1
 !s100 M^Xm;?TG_g[fIEaEZz?nT1
 R6
 32
-R60
+R62
 !i10b 1
-Z79 !s108 1418180488.918000
-Z80 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd|
-Z81 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd|
+Z81 !s108 1418180488.918000
+Z82 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd|
+Z83 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/dff_24.vhd|
 !i113 1
 R11
 R12
 Astruct
 R2
 R3
-Z82 DEx4 work 6 dff_24 0 22 ]N;fJC9O;`WCfIA_QzO6V1
+Z84 DEx4 work 6 dff_24 0 22 ]N;fJC9O;`WCfIA_QzO6V1
 l22
 L12
 Vc=95zKAOY90IGHkVLFl;j1
 !s100 cYo7lQYD`g_IJ>]^2D<?f2
 R6
 32
-R60
+R62
 !i10b 1
-R79
-R80
 R81
+R82
+R83
 !i113 1
 R11
 R12
@@ -464,19 +464,19 @@ R1
 R2
 R3
 R0
-Z83 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd
-Z84 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd
+Z85 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd
+Z86 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd
 l0
 L4
 VJ64Bn0^0_^0mUSU<ZOo591
 !s100 8^h72ccPiicFMoll6;?B^1
 R6
 32
-Z85 !s110 1418180509
+Z87 !s110 1418180509
 !i10b 1
-Z86 !s108 1418180509.803000
-Z87 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd|
-Z88 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd|
+Z88 !s108 1418180509.803000
+Z89 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd|
+Z90 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr.vhd|
 !i113 1
 R11
 R12
@@ -490,11 +490,11 @@ V_Uhmck]XK8N?fUm1<]knZ2
 !s100 [jSDjV[;ooEXI1fbj<kQH2
 R6
 32
-R85
-!i10b 1
-R86
 R87
+!i10b 1
 R88
+R89
+R90
 !i113 1
 R11
 R12
@@ -503,19 +503,19 @@ R1
 R2
 R3
 R0
-Z89 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd
-Z90 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd
+Z91 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd
+Z92 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd
 l0
 L4
 VdP=DD7z<d9h=O[o6XL5N11
 !s100 Ae06@YlEN>^ZBC[J]R^j?2
 R6
 32
-Z91 !s110 1418180511
+Z93 !s110 1418180511
 !i10b 1
-Z92 !s108 1418180511.261000
-Z93 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd|
-Z94 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd|
+Z94 !s108 1418180511.261000
+Z95 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd|
+Z96 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/dffr_a.vhd|
 !i113 1
 R11
 R12
@@ -529,16 +529,16 @@ VI62cMXNa9hMQ88?5;TBh:2
 !s100 18jIoW:5CWgj6bjeXK^2W3
 R6
 32
-R91
-!i10b 1
-R92
 R93
+!i10b 1
 R94
+R95
+R96
 !i113 1
 R11
 R12
 Peecs361
-R24
+R25
 R2
 R3
 R1
@@ -551,7 +551,7 @@ V^^AF]TLfaMEJ7lm=DbD:[0
 !s100 J4oJc<k4i`WASEFke5kBI1
 R6
 32
-Z95 !s110 1418180512
+Z97 !s110 1418180512
 !i10b 1
 !s108 1418180512.071000
 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/eecs361.vhd|
@@ -572,7 +572,7 @@ VY`H6JLa]eolRP`lSh`[1R3
 !s100 EFJF``Kkcd:<4LI@jVAPI3
 R6
 32
-R95
+R97
 !i10b 1
 !s108 1418180512.294000
 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/eecs361_gates.vhd|
@@ -585,19 +585,19 @@ R1
 R2
 R3
 R0
-Z96 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd
-Z97 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd
+Z98 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd
+Z99 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd
 l0
 L4
 V>ReaF7L@IkV:Lf5;c1iGi1
 !s100 VUBWe9FBJWK;X=mWOQneA3
 R6
 32
-R95
+R97
 !i10b 1
-Z98 !s108 1418180512.441000
-Z99 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd|
-Z100 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd|
+Z100 !s108 1418180512.441000
+Z101 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd|
+Z102 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_32.vhd|
 !i113 1
 R11
 R12
@@ -611,38 +611,38 @@ VmD2XY;Jb84I[Z0Aj_bS?H2
 !s100 2_@4>b7=<lh>L?l_cAQk80
 R6
 32
-R95
+R97
 !i10b 1
-R98
-R99
 R100
+R101
+R102
 !i113 1
 R11
 R12
 Efulladder_n
 R1
-R26
+R27
 R2
 R3
 R0
-Z101 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd
-Z102 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd
+Z103 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd
+Z104 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd
 l0
 L5
 V=VzBTYNjL?;I=L[:Z@Am83
 !s100 V6IE>^`E7L]cZ]31OjmKO0
 R6
 32
-Z103 !s110 1418180513
+Z105 !s110 1418180513
 !i10b 1
-Z104 !s108 1418180513.315000
-Z105 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd|
-Z106 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd|
+Z106 !s108 1418180513.315000
+Z107 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd|
+Z108 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/fulladder_n.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R26
+R27
 R2
 R3
 DEx4 work 11 fulladder_n 0 22 =VzBTYNjL?;I=L[:Z@Am83
@@ -652,16 +652,16 @@ VQN:0h>GkjIIGbWkATMNnP2
 !s100 dO2Y]L5HUgBaSB^@IH`Tz1
 R6
 32
-R103
-!i10b 1
-R104
 R105
+!i10b 1
 R106
+R107
+R108
 !i113 1
 R11
 R12
 El1cache
-R48
+R50
 R2
 R3
 R0
@@ -673,103 +673,126 @@ VNjIaA1Hf81a:B5_XhJ;zV3
 !s100 TQ9WORVH>jX5Z3HA52cg<0
 R6
 32
-Z107 !s110 1418180827
+!s110 1418181040
 !i10b 1
-!s108 1418180827.698000
+!s108 1418181040.044000
 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd|
 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l1Cache.vhd|
 !i113 1
 R11
 R12
 El2cache
-w1418180719
+Z109 w1418181007
 R2
 R3
 R0
-8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd
-FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd
+Z110 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd
+Z111 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd
 l0
 L4
 V^Ck^R@5OeERSWa9;PbXkB2
 !s100 N4gEGXgm6>@zbL5UPH<3>2
 R6
 32
-R107
+Z112 !s110 1418181013
 !i10b 1
-!s108 1418180827.782000
-!s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd|
-!s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd|
+Z113 !s108 1418181013.735000
+Z114 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd|
+Z115 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd|
+!i113 1
+R11
+R12
+Astruct
+Z116 DEx4 work 16 mux_4_to_1_32bit 0 22 W:kV_aUBVF]M?YZ`BlODb1
+Z117 DEx4 work 4 or_4 0 22 WD=gHBXOSQofk2o5;5[941
+R27
+R40
+R13
+R2
+R3
+DEx4 work 7 l2cache 0 22 ^Ck^R@5OeERSWa9;PbXkB2
+l57
+L18
+VFnY?njfWd^CBQ2=F83khS1
+!s100 a7ZB5Qj>;U4joe@KMkjQn0
+R6
+32
+R112
+!i10b 1
+R113
+R114
+R115
 !i113 1
 R11
 R12
 Emux
 R1
-R24
 R25
+R26
 R2
 R3
 R0
-Z108 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd
-Z109 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd
+Z118 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd
+Z119 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd
 l0
 L5
 VzB3mFn]^WO1Q5f;oa5<:i1
 !s100 R7SGh1UNzgRXkDgUzi0Dn0
 R6
 32
-Z110 !s110 1418180514
+Z120 !s110 1418180514
 !i10b 1
-Z111 !s108 1418180514.127000
-Z112 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd|
-Z113 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd|
+Z121 !s108 1418180514.127000
+Z122 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd|
+Z123 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux.vhd|
 !i113 1
 R11
 R12
 Astructural
-R24
 R25
+R26
 R2
 R3
-Z114 DEx4 work 3 mux 0 22 zB3mFn]^WO1Q5f;oa5<:i1
+Z124 DEx4 work 3 mux 0 22 zB3mFn]^WO1Q5f;oa5<:i1
 l15
 L14
 V>1PeESFaHClS=zBGFdF772
 !s100 TMbaX=C3aUF9Pl?TK_bl20
 R6
 32
-R110
+R120
 !i10b 1
-R111
-R112
-R113
+R121
+R122
+R123
 !i113 1
 R11
 R12
 Emux_16_to_1
-R56
+R58
 R2
 R3
 R0
-Z115 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd
-Z116 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd
+Z125 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd
+Z126 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd
 l0
 L5
 VYA1HW]hO7Qg122eLKT<NR1
 !s100 0MK:9ehAm2RcmW4BFTFT[3
 R6
 32
-Z117 !s110 1418180496
+Z127 !s110 1418180496
 !i10b 1
-Z118 !s108 1418180496.726000
-Z119 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd|
-Z120 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd|
+Z128 !s108 1418180496.726000
+Z129 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd|
+Z130 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1.vhd|
 !i113 1
 R11
 R12
 Astruct
-R24
 R25
-Z121 DEx4 work 6 mux_24 0 22 Rc[]lLn1kR8AF`MWmf8C73
+R26
+Z131 DEx4 work 6 mux_24 0 22 Rc[]lLn1kR8AF`MWmf8C73
 R2
 R3
 DEx4 work 11 mux_16_to_1 0 22 YA1HW]hO7Qg122eLKT<NR1
@@ -779,39 +802,39 @@ V>e`_R3zMaLZTSQ:]Aeclm2
 !s100 ]NgRJz`U1]@eYmT51<0LI0
 R6
 32
-R117
+R127
 !i10b 1
-R118
-R119
-R120
+R128
+R129
+R130
 !i113 1
 R11
 R12
 Emux_16_to_1_32bit
-Z122 w1418179310
+Z132 w1418179310
 R2
 R3
 R0
-Z123 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd
-Z124 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd
+Z133 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd
+Z134 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd
 l0
 L5
 V3XGT?_hCLB0AeUGo6fSmW0
 !s100 >X8E`Nek95B[hHkCKYWk:2
 R6
 32
-Z125 !s110 1418180497
+Z135 !s110 1418180497
 !i10b 1
-Z126 !s108 1418180497.381000
-Z127 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd|
-Z128 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd|
+Z136 !s108 1418180497.381000
+Z137 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd|
+Z138 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_32bit.vhd|
 !i113 1
 R11
 R12
 Astruct
-R24
 R25
-Z129 DEx4 work 6 mux_32 0 22 OlZhk[`?`GZQTV3Y4L@ZX0
+R26
+Z139 DEx4 work 6 mux_32 0 22 OlZhk[`?`GZQTV3Y4L@ZX0
 R2
 R3
 DEx4 work 17 mux_16_to_1_32bit 0 22 3XGT?_hCLB0AeUGo6fSmW0
@@ -821,39 +844,39 @@ VE5d31iGoKb<6@`RhC1Uko3
 !s100 PX^k0Y00=1RcTnn1DR<@V0
 R6
 32
-R125
+R135
 !i10b 1
-R126
-R127
-R128
+R136
+R137
+R138
 !i113 1
 R11
 R12
 Emux_16_to_1_bit
-Z130 w1418180100
+Z140 w1418180100
 R2
 R3
 R0
-Z131 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd
-Z132 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd
+Z141 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd
+Z142 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd
 l0
 L5
 VJbId6cM4T4bP`9EX2@m>[3
 !s100 1IUd`2K=<AR>NUSaj[F]O0
 R6
 32
-Z133 !s110 1418180498
+Z143 !s110 1418180498
 !i10b 1
-Z134 !s108 1418180498.255000
-Z135 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd|
-Z136 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd|
+Z144 !s108 1418180498.255000
+Z145 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd|
+Z146 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_16_to_1_bit.vhd|
 !i113 1
 R11
 R12
 Astruct
-R24
 R25
-R114
+R26
+R124
 R2
 R3
 DEx4 work 15 mux_16_to_1_bit 0 22 JbId6cM4T4bP`9EX2@m>[3
@@ -863,18 +886,18 @@ VBf9=LNb106X:;O^^Q7[[60
 !s100 4_=<eKOaf<NJZRzngFf1f3
 R6
 32
-R133
+R143
 !i10b 1
-R134
-R135
-R136
+R144
+R145
+R146
 !i113 1
 R11
 R12
 Emux_24
-R48
-R24
+R50
 R25
+R26
 R2
 R3
 R0
@@ -886,7 +909,7 @@ VRc[]lLn1kR8AF`MWmf8C73
 !s100 4bjGKBj4n_BD?^Dj69G7o2
 R6
 32
-Z137 !s110 1418180499
+Z147 !s110 1418180499
 !i10b 1
 !s108 1418180498.989000
 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_24.vhd|
@@ -896,60 +919,60 @@ R11
 R12
 Emux_32
 R1
-R24
 R25
+R26
 R2
 R3
 R0
-Z138 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd
-Z139 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd
+Z148 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd
+Z149 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd
 l0
 L5
 VOlZhk[`?`GZQTV3Y4L@ZX0
 !s100 ciE_BzZP_7gaALUfNcf3V2
 R6
 32
-R110
+R120
 !i10b 1
-Z140 !s108 1418180514.977000
-Z141 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd|
-Z142 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd|
+Z150 !s108 1418180514.977000
+Z151 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd|
+Z152 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_32.vhd|
 !i113 1
 R11
 R12
 Astructural
-R24
 R25
+R26
 R2
 R3
-R129
+R139
 l15
 L14
 V7UHP=BdYn]NVWnMkCOB[F3
 !s100 iiT]gRaJ0BGA@1c7lKGZ;1
 R6
 32
-R110
+R120
 !i10b 1
-R140
-R141
-R142
+R150
+R151
+R152
 !i113 1
 R11
 R12
 Astruct
-R24
 R25
+R26
 R2
 R3
-R129
+R139
 l15
 L14
 V5XE43`Xll26QE1NAM@S^30
 !s100 l6@R33PWSXj87VA:VGONP0
 R6
 32
-R137
+R147
 !i10b 1
 !s108 1418180499.847000
 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_32.vhd|
@@ -961,31 +984,31 @@ FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_32.vhd
 w1418177426
 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_32.vhd
 Emux_4_to_1
-Z143 w1418177184
+Z153 w1418177184
 R2
 R3
 R0
-Z144 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd
-Z145 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd
+Z154 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd
+Z155 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd
 l0
 L5
 VO4=5LPm:K0COMz5^[RWR>0
 !s100 F734^j7J68@X^on5z_AR20
 R6
 32
-Z146 !s110 1418180681
+Z156 !s110 1418180681
 !i10b 1
-Z147 !s108 1418180681.144000
-Z148 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd|
-Z149 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd|
+Z157 !s108 1418180681.144000
+Z158 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd|
+Z159 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd|
 !i113 1
 R11
 R12
 Astruct
-Z150 DEx4 work 7 or_gate 0 22 I0bn=1KP2N19:Qz72M5BR3
-R24
+Z160 DEx4 work 7 or_gate 0 22 I0bn=1KP2N19:Qz72M5BR3
 R25
-R129
+R26
+R139
 R2
 R3
 DEx4 work 10 mux_4_to_1 0 22 O4=5LPm:K0COMz5^[RWR>0
@@ -995,40 +1018,40 @@ V5U2:Z66z^QeWd^zOo61:10
 !s100 e[M0z[U_[QSZNIUfi62>d1
 R6
 32
-R146
+R156
 !i10b 1
-R147
-R148
-R149
+R157
+R158
+R159
 !i113 1
 R11
 R12
 Emux_4_to_1_24bit
-Z151 w1418180813
+Z161 w1418180813
 R2
 R3
 R0
-Z152 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd
-Z153 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd
+Z162 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd
+Z163 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd
 l0
 L5
 V@n0l;dLX;78^4CmL79z7^1
 !s100 2X]cYbf]j1?NS5=4iR2000
 R6
 32
-R107
+Z164 !s110 1418180827
 !i10b 1
-Z154 !s108 1418180827.876000
-Z155 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd|
-Z156 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd|
+Z165 !s108 1418180827.876000
+Z166 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd|
+Z167 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd|
 !i113 1
 R11
 R12
 Astruct
-R150
-R24
+R160
 R25
-R121
+R26
+R131
 R2
 R3
 DEx4 work 16 mux_4_to_1_24bit 0 22 @n0l;dLX;78^4CmL79z7^1
@@ -1038,83 +1061,83 @@ V]?jfh5LcDe[[D_O[<gz^]3
 !s100 a7@Dh1en6EbJlg6RJ4b<?1
 R6
 32
-R107
+R164
 !i10b 1
-R154
-R155
-R156
+R165
+R166
+R167
 !i113 1
 R11
 R12
 Emux_4_to_1_32bit
-R151
+R161
 R2
 R3
 R0
-R144
-R145
+R154
+R155
 l0
 L5
 VW:kV_aUBVF]M?YZ`BlODb1
 !s100 <X;`GnNm]`Sd>1=J]TKel2
 R6
 32
-Z157 !s110 1418180828
+Z168 !s110 1418180828
 !i10b 1
-Z158 !s108 1418180828.837000
-R148
-R149
+Z169 !s108 1418180828.837000
+R158
+R159
 !i113 1
 R11
 R12
 Astruct
-R150
-R24
+R160
 R25
-R129
+R26
+R139
 R2
 R3
-DEx4 work 16 mux_4_to_1_32bit 0 22 W:kV_aUBVF]M?YZ`BlODb1
+R116
 l18
 L13
 VUDm5=1HbeN5[;McW?6a=>0
 !s100 3hNIod?JSkJMcP<R?;fTC3
 R6
 32
-R157
+R168
 !i10b 1
+R169
 R158
-R148
-R149
+R159
 !i113 1
 R11
 R12
 Emux_4_to_1_bit
-Z159 w1418179515
+Z170 w1418179515
 R2
 R3
 R0
-Z160 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd
-Z161 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd
+Z171 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd
+Z172 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd
 l0
 L5
 V[jQ;i=kiV[@iA62493EoW2
 !s100 o8GGZ<iT@hNIHYSkd;Zz20
 R6
 32
-R117
+R127
 !i10b 1
-Z162 !s108 1418180496.047000
-Z163 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd|
-Z164 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd|
+Z173 !s108 1418180496.047000
+Z174 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd|
+Z175 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_bit.vhd|
 !i113 1
 R11
 R12
 Astruct
-R150
-R24
+R160
 R25
-R114
+R26
+R124
 R2
 R3
 DEx4 work 14 mux_4_to_1_bit 0 22 [jQ;i=kiV[@iA62493EoW2
@@ -1124,11 +1147,11 @@ V9T[aW>oKaM5HXR57k;WMZ1
 !s100 k@TDQ`RY;nU2PVgSB@>551
 R6
 32
-R117
+R127
 !i10b 1
-R162
-R163
-R164
+R173
+R174
+R175
 !i113 1
 R11
 R12
@@ -1137,19 +1160,19 @@ R1
 R2
 R3
 R0
-Z165 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd
-Z166 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd
+Z176 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd
+Z177 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd
 l0
 L4
 V?KK90]`1?K3cYmaZ@2ZiU2
 !s100 DhH_dWUkhZScmPX0PShL>1
 R6
 32
-Z167 !s110 1418180515
+Z178 !s110 1418180515
 !i10b 1
-Z168 !s108 1418180515.663000
-Z169 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd|
-Z170 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd|
+Z179 !s108 1418180515.663000
+Z180 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd|
+Z181 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/mux_n.vhd|
 !i113 1
 R11
 R12
@@ -1163,11 +1186,11 @@ Vc:nT1[O:OUd7C:kd0;RQm2
 !s100 VOPJAGmKhfQ>L9L:P_FXf0
 R6
 32
-R167
+R178
 !i10b 1
-R168
-R169
-R170
+R179
+R180
+R181
 !i113 1
 R11
 R12
@@ -1176,19 +1199,19 @@ R1
 R2
 R3
 R0
-Z171 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd
-Z172 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd
+Z182 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd
+Z183 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd
 l0
 L5
 VUJRIU4Oo2bb833MR;8eeK0
 !s100 `;YoNjg98=RO3KEUJb?JH2
 R6
 32
-Z173 !s110 1418180516
+Z184 !s110 1418180516
 !i10b 1
-Z174 !s108 1418180516.584000
-Z175 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd|
-Z176 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd|
+Z185 !s108 1418180516.584000
+Z186 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd|
+Z187 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate.vhd|
 !i113 1
 R11
 R12
@@ -1202,11 +1225,11 @@ Vmc;dGB9PFB8Va]cJiKPnA3
 !s100 DdgXSJTenGYMFNYGk^j2^2
 R6
 32
-R173
+R184
 !i10b 1
-R174
-R175
-R176
+R185
+R186
+R187
 !i113 1
 R11
 R12
@@ -1215,19 +1238,19 @@ R1
 R2
 R3
 R0
-Z177 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd
-Z178 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd
+Z188 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd
+Z189 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd
 l0
 L5
 VQ7HWC=HJVfdNKlmLIkMma2
 !s100 d7`oU3cRhD_iz]OR?aJbM0
 R6
 32
-Z179 !s110 1418180517
+Z190 !s110 1418180517
 !i10b 1
-Z180 !s108 1418180517.704000
-Z181 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd|
-Z182 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd|
+Z191 !s108 1418180517.704000
+Z192 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd|
+Z193 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_32.vhd|
 !i113 1
 R11
 R12
@@ -1241,11 +1264,11 @@ VK]`eXcoP?:P;fL`IZDg_33
 !s100 5L7`cY6bRPYMYkmEYAg871
 R6
 32
-R179
+R190
 !i10b 1
-R180
-R181
-R182
+R191
+R192
+R193
 !i113 1
 R11
 R12
@@ -1254,19 +1277,19 @@ R1
 R2
 R3
 R0
-Z183 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd
-Z184 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd
+Z194 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd
+Z195 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd
 l0
 L5
 Vd^AhAU01S^7Y4JlPiBl:g3
 !s100 LMidV?0i^0NCQXjDDfE0j1
 R6
 32
-Z185 !s110 1418180518
+Z196 !s110 1418180518
 !i10b 1
-Z186 !s108 1418180518.476000
-Z187 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd|
-Z188 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd|
+Z197 !s108 1418180518.476000
+Z198 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd|
+Z199 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nand_gate_n.vhd|
 !i113 1
 R11
 R12
@@ -1280,11 +1303,11 @@ VhPSaT<<CzCS1C=bQ>Y:zY1
 !s100 5mzmEVJ8`Ol]kLAA1ADTS0
 R6
 32
-R185
+R196
 !i10b 1
-R186
-R187
-R188
+R197
+R198
+R199
 !i113 1
 R11
 R12
@@ -1293,19 +1316,19 @@ R1
 R2
 R3
 R0
-Z189 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd
-Z190 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd
+Z200 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd
+Z201 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd
 l0
 L5
 Vl4NcfXKNiThldYNcnP5;o2
 !s100 Uz[KW04m>JL2N=<Ae_26A3
 R6
 32
-Z191 !s110 1418180519
+Z202 !s110 1418180519
 !i10b 1
-Z192 !s108 1418180519.260000
-Z193 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd|
-Z194 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd|
+Z203 !s108 1418180519.260000
+Z204 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd|
+Z205 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate.vhd|
 !i113 1
 R11
 R12
@@ -1319,11 +1342,11 @@ VKa[[7jgRMIb1_iK<QKz2R3
 !s100 kE2E`N:jBl`5f7h@CAkLc3
 R6
 32
-R191
+R202
 !i10b 1
-R192
-R193
-R194
+R203
+R204
+R205
 !i113 1
 R11
 R12
@@ -1332,19 +1355,19 @@ R1
 R2
 R3
 R0
-Z195 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd
-Z196 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd
+Z206 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd
+Z207 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd
 l0
 L5
 V]Ta:lVnBf>1l]Wn18fddR1
 !s100 3mdJRKLJ_1Z1ih<o1WC>A3
 R6
 32
-Z197 !s110 1418180520
+Z208 !s110 1418180520
 !i10b 1
-Z198 !s108 1418180520.169000
-Z199 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd|
-Z200 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd|
+Z209 !s108 1418180520.169000
+Z210 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd|
+Z211 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_32.vhd|
 !i113 1
 R11
 R12
@@ -1358,11 +1381,11 @@ VO2Pz=mOESO?_VkSnX;2[h1
 !s100 4C[N[o;dbNU?^;JAFz8P@0
 R6
 32
-R197
+R208
 !i10b 1
-R198
-R199
-R200
+R209
+R210
+R211
 !i113 1
 R11
 R12
@@ -1371,19 +1394,19 @@ R1
 R2
 R3
 R0
-Z201 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd
-Z202 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd
+Z212 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd
+Z213 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd
 l0
 L5
 V<g@BZYRAl27b0zBj]hAQA3
 !s100 WOgXHNaOaa3V@ZQR9[dBF2
 R6
 32
-Z203 !s110 1418180521
+Z214 !s110 1418180521
 !i10b 1
-Z204 !s108 1418180520.994000
-Z205 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd|
-Z206 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd|
+Z215 !s108 1418180520.994000
+Z216 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd|
+Z217 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/nor_gate_n.vhd|
 !i113 1
 R11
 R12
@@ -1397,11 +1420,11 @@ VhDFW?hDGVTc>S8Vj5`kMU0
 !s100 LLY;[lESSHQFLXI0BM0Lk2
 R6
 32
-R203
+R214
 !i10b 1
-R204
-R205
-R206
+R215
+R216
+R217
 !i113 1
 R11
 R12
@@ -1410,19 +1433,19 @@ R1
 R2
 R3
 R0
-Z207 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd
-Z208 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd
+Z218 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd
+Z219 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd
 l0
 L5
 Va2jU0gU?ahMAOCzX>hcie3
 !s100 ZFL^eh?^CT8f=9?@;fY^P1
 R6
 32
-Z209 !s110 1418180522
+Z220 !s110 1418180522
 !i10b 1
-Z210 !s108 1418180522.607000
-Z211 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd|
-Z212 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd|
+Z221 !s108 1418180522.607000
+Z222 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd|
+Z223 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate.vhd|
 !i113 1
 R11
 R12
@@ -1436,11 +1459,11 @@ VSd>_hU>oSoTbK=><35n<J1
 !s100 0K4o_`::YhV<`CcAlY38V3
 R6
 32
-R209
+R220
 !i10b 1
-R210
-R211
-R212
+R221
+R222
+R223
 !i113 1
 R11
 R12
@@ -1449,19 +1472,19 @@ R1
 R2
 R3
 R0
-Z213 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd
-Z214 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd
+Z224 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd
+Z225 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd
 l0
 L5
 Vbc@1G6Pn;1QIPj9N?dX;R3
 !s100 MlQa>L3D?j3YTME?WDA^I3
 R6
 32
-Z215 !s110 1418180523
+Z226 !s110 1418180523
 !i10b 1
-Z216 !s108 1418180523.143000
-Z217 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd|
-Z218 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd|
+Z227 !s108 1418180523.143000
+Z228 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd|
+Z229 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_32.vhd|
 !i113 1
 R11
 R12
@@ -1475,11 +1498,11 @@ Vi3iP4D6`igl`ehm^d4^co2
 !s100 SZ]KSd]7=<``cT7UO3c^32
 R6
 32
-R215
+R226
 !i10b 1
-R216
-R217
-R218
+R227
+R228
+R229
 !i113 1
 R11
 R12
@@ -1488,19 +1511,19 @@ R1
 R2
 R3
 R0
-Z219 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd
-Z220 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd
+Z230 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd
+Z231 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd
 l0
 L5
 VkY>E^h@zmf?^JH:]<>5jN0
 !s100 IMo29cac8Wo2jk<h1@>Y41
 R6
 32
-R215
+R226
 !i10b 1
-Z221 !s108 1418180523.805000
-Z222 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd|
-Z223 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd|
+Z232 !s108 1418180523.805000
+Z233 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd|
+Z234 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/not_gate_n.vhd|
 !i113 1
 R11
 R12
@@ -1514,51 +1537,51 @@ V[?@bjFlkW]?Eigeec4`<]1
 !s100 f1R?C4QOI1W16^[L00fF`1
 R6
 32
-R215
+R226
 !i10b 1
-R221
-R222
-R223
+R232
+R233
+R234
 !i113 1
 R11
 R12
 Eor_4
-Z224 w1418173945
+Z235 w1418173945
 R2
 R3
 R0
-Z225 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd
-Z226 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd
+Z236 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd
+Z237 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd
 l0
 L4
 VWD=gHBXOSQofk2o5;5[941
 !s100 EchQangB<jF:O57h`j3SQ3
 R6
 32
-Z227 !s110 1418180500
+Z238 !s110 1418180500
 !i10b 1
-Z228 !s108 1418180500.643000
-Z229 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd|
-Z230 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd|
+Z239 !s108 1418180500.643000
+Z240 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd|
+Z241 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/or_4.vhd|
 !i113 1
 R11
 R12
 Astruct
-R150
+R160
 R2
 R3
-DEx4 work 4 or_4 0 22 WD=gHBXOSQofk2o5;5[941
+R117
 l19
 L14
 V;k<H_U=BGn=C@69]WOgzg0
 !s100 z1BSKQXEjW>Q>l5Yh_2OI1
 R6
 32
-R227
+R238
 !i10b 1
-R228
-R229
-R230
+R239
+R240
+R241
 !i113 1
 R11
 R12
@@ -1567,37 +1590,37 @@ R1
 R2
 R3
 R0
-Z231 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd
-Z232 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd
+Z242 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd
+Z243 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd
 l0
 L5
 VI0bn=1KP2N19:Qz72M5BR3
 !s100 P4NBKo^c]hz<z`LINQA5?3
 R6
 32
-Z233 !s110 1418180524
+Z244 !s110 1418180524
 !i10b 1
-Z234 !s108 1418180524.522000
-Z235 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd|
-Z236 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd|
+Z245 !s108 1418180524.522000
+Z246 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd|
+Z247 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate.vhd|
 !i113 1
 R11
 R12
 Adataflow
 R2
 R3
-R150
+R160
 l14
 L13
 VMWOz`KXoz4S7hV@cG3bY]1
 !s100 imjaYVkITBGK@1]KZ;:O?1
 R6
 32
-R233
+R244
 !i10b 1
-R234
-R235
-R236
+R245
+R246
+R247
 !i113 1
 R11
 R12
@@ -1606,19 +1629,19 @@ R1
 R2
 R3
 R0
-Z237 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd
-Z238 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd
+Z248 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd
+Z249 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd
 l0
 L5
 V62h?8Mlfl`WN<[W?cCkTI0
 !s100 XkkR6QF?Vl4ZJYEZjo;0l2
 R6
 32
-Z239 !s110 1418180525
+Z250 !s110 1418180525
 !i10b 1
-Z240 !s108 1418180525.355000
-Z241 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd|
-Z242 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd|
+Z251 !s108 1418180525.355000
+Z252 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd|
+Z253 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_32.vhd|
 !i113 1
 R11
 R12
@@ -1632,11 +1655,11 @@ Vl1M<aAZJ1D^S3_3^W_^IR3
 !s100 K:BE?onG;^0[1Z5dkfcRR0
 R6
 32
-R239
+R250
 !i10b 1
-R240
-R241
-R242
+R251
+R252
+R253
 !i113 1
 R11
 R12
@@ -1645,19 +1668,19 @@ R1
 R2
 R3
 R0
-Z243 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd
-Z244 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd
+Z254 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd
+Z255 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd
 l0
 L5
 Vzn[6N]nRC@T4X2TN[5l?_0
 !s100 Y[01iFT>714d^L[KJ4VM82
 R6
 32
-Z245 !s110 1418180526
+Z256 !s110 1418180526
 !i10b 1
-Z246 !s108 1418180526.059000
-Z247 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd|
-Z248 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd|
+Z257 !s108 1418180526.059000
+Z258 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd|
+Z259 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/or_gate_n.vhd|
 !i113 1
 R11
 R12
@@ -1671,39 +1694,39 @@ V92IH<JT]B^;>eHZBo@=fg0
 !s100 X0T0eOJ7Mi7@HZjHoZO6:3
 R6
 32
-R245
+R256
 !i10b 1
-R246
-R247
-R248
+R257
+R258
+R259
 !i113 1
 R11
 R12
 Esetl1
-Z249 w1418178570
+Z260 w1418178570
 R2
 R3
 R0
-Z250 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd
-Z251 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd
+Z261 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd
+Z262 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd
 l0
 L4
 VS6HnE>N9bcGVl12OJ0WDN2
 !s100 m9^hTiHJEUY@]5MYiSLE42
 R6
 32
-Z252 !s110 1418180501
+Z263 !s110 1418180501
 !i10b 1
-Z253 !s108 1418180501.413000
-Z254 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd|
-Z255 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd|
+Z264 !s108 1418180501.413000
+Z265 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd|
+Z266 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/SetL1.vhd|
 !i113 1
 R11
 R12
 Astruct
-Z256 DEx4 work 3 tag 0 22 5W643jz5i^VId8B?gA^NC2
-Z257 DEx4 work 5 valid 0 22 lZ^^4=kh_2`clkSK5IbKN0
-R55
+Z267 DEx4 work 3 tag 0 22 5W643jz5i^VId8B?gA^NC2
+Z268 DEx4 work 5 valid 0 22 lZ^^4=kh_2`clkSK5IbKN0
+R57
 R2
 R3
 DEx4 work 5 setl1 0 22 S6HnE>N9bcGVl12OJ0WDN2
@@ -1713,44 +1736,44 @@ VPna?fkQ0JC:20R8gmA@LD3
 !s100 _E7WK37bVGaUJd3e8<0YR0
 R6
 32
-R252
+R263
 !i10b 1
-R253
-R254
-R255
+R264
+R265
+R266
 !i113 1
 R11
 R12
 Esram
 R1
-R26
-R39
-R40
+R27
 R41
+R42
+R43
 R2
 R3
 R0
-Z258 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd
-Z259 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd
+Z269 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd
+Z270 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd
 l0
 L12
 VjMAm^bfJIg7Ekk9RIXHeS0
 !s100 4U[]`8DWS[aYZMb6m^0<A1
 R6
 32
-Z260 !s110 1418180527
+Z271 !s110 1418180527
 !i10b 1
-Z261 !s108 1418180527.043000
-Z262 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd|
-Z263 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd|
+Z272 !s108 1418180527.043000
+Z273 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd|
+Z274 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/sram.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R26
-R39
-R40
+R27
 R41
+R42
+R43
 R2
 R3
 DEx4 work 4 sram 0 22 jMAm^bfJIg7Ekk9RIXHeS0
@@ -1758,96 +1781,6 @@ l27
 L26
 VzbkjT06o=DoZdTXAgkg:L0
 !s100 Y1T`HMh2EaPd[X0IQYG]P0
-R6
-32
-R260
-!i10b 1
-R261
-R262
-R263
-!i113 1
-R11
-R12
-Esyncram
-R1
-R26
-R39
-R40
-R41
-R2
-R3
-R0
-Z264 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd
-Z265 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd
-l0
-L12
-V9SF6a]cFn[EkodD;4OT_h0
-!s100 aFnLlL1@m415d6em?MG^21
-R6
-32
-R260
-!i10b 1
-Z266 !s108 1418180527.839000
-Z267 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd|
-Z268 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd|
-!i113 1
-R11
-R12
-Abehavioral
-R26
-R39
-R40
-R41
-R2
-R3
-DEx4 work 7 syncram 0 22 9SF6a]cFn[EkodD;4OT_h0
-l28
-L27
-V`V1W?_S89^YMz7nNZIMVB1
-!s100 W:<cVUTVPgIfz60fOOgQ20
-R6
-32
-R260
-!i10b 1
-R266
-R267
-R268
-!i113 1
-R11
-R12
-Etag
-R48
-R2
-R3
-R0
-Z269 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd
-Z270 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd
-l0
-L4
-V5W643jz5i^VId8B?gA^NC2
-!s100 hh;VRek;LJk<`^YA0a6^D0
-R6
-32
-Z271 !s110 1418180502
-!i10b 1
-Z272 !s108 1418180502.516000
-Z273 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd|
-Z274 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd|
-!i113 1
-R11
-R12
-Astruct
-R82
-R24
-R25
-R121
-R2
-R3
-R256
-l18
-L13
-V<i_Eg0b@Vi=C3GiOa5b<G3
-!s100 @_=IOSnO:N2QR71i1mlB30
 R6
 32
 R271
@@ -1858,46 +1791,136 @@ R274
 !i113 1
 R11
 R12
-Evalid
-R249
+Esyncram
+R1
+R27
+R41
+R42
+R43
 R2
 R3
 R0
-Z275 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd
-Z276 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd
+Z275 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd
+Z276 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd
+l0
+L12
+V9SF6a]cFn[EkodD;4OT_h0
+!s100 aFnLlL1@m415d6em?MG^21
+R6
+32
+R271
+!i10b 1
+Z277 !s108 1418180527.839000
+Z278 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd|
+Z279 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/syncram.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R27
+R41
+R42
+R43
+R2
+R3
+DEx4 work 7 syncram 0 22 9SF6a]cFn[EkodD;4OT_h0
+l28
+L27
+V`V1W?_S89^YMz7nNZIMVB1
+!s100 W:<cVUTVPgIfz60fOOgQ20
+R6
+32
+R271
+!i10b 1
+R277
+R278
+R279
+!i113 1
+R11
+R12
+Etag
+R50
+R2
+R3
+R0
+Z280 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd
+Z281 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd
+l0
+L4
+V5W643jz5i^VId8B?gA^NC2
+!s100 hh;VRek;LJk<`^YA0a6^D0
+R6
+32
+Z282 !s110 1418180502
+!i10b 1
+Z283 !s108 1418180502.516000
+Z284 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd|
+Z285 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/tag.vhd|
+!i113 1
+R11
+R12
+Astruct
+R84
+R25
+R26
+R131
+R2
+R3
+R267
+l18
+L13
+V<i_Eg0b@Vi=C3GiOa5b<G3
+!s100 @_=IOSnO:N2QR71i1mlB30
+R6
+32
+R282
+!i10b 1
+R283
+R284
+R285
+!i113 1
+R11
+R12
+Evalid
+R260
+R2
+R3
+R0
+Z286 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd
+Z287 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd
 l0
 L4
 VlZ^^4=kh_2`clkSK5IbKN0
 !s100 5HcdNdf=]nWJ@c=8SGJW=1
 R6
 32
-Z277 !s110 1418180486
+Z288 !s110 1418180486
 !i10b 1
-Z278 !s108 1418180486.757000
-Z279 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd|
-Z280 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd|
+Z289 !s108 1418180486.757000
+Z290 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd|
+Z291 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/valid.vhd|
 !i113 1
 R11
 R12
 Astruct
-R76
-R24
+R78
 R25
-R114
+R26
+R124
 R2
 R3
-R257
+R268
 l18
 L13
 V]JWH1BJg5<gzLe2=]E]>D2
 !s100 `iMoX:n`IziF@eZ9mR`:I0
 R6
 32
-R277
+R288
 !i10b 1
-R278
-R279
-R280
+R289
+R290
+R291
 !i113 1
 R11
 R12
@@ -1906,19 +1929,19 @@ R1
 R2
 R3
 R0
-Z281 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd
-Z282 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd
+Z292 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd
+Z293 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd
 l0
 L5
 V64cWg<O7h^DkP_G;TSfFb3
 !s100 VMF9C>DP[5;VOiN5[aESd3
 R6
 32
-Z283 !s110 1418180528
+Z294 !s110 1418180528
 !i10b 1
-Z284 !s108 1418180528.638000
-Z285 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd|
-Z286 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd|
+Z295 !s108 1418180528.638000
+Z296 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd|
+Z297 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate.vhd|
 !i113 1
 R11
 R12
@@ -1932,11 +1955,11 @@ VQi:Iak;D@9C9]:NzK;74n0
 !s100 ]_>oDFZN:PJ[HJie3IcK81
 R6
 32
-R283
+R294
 !i10b 1
-R284
-R285
-R286
+R295
+R296
+R297
 !i113 1
 R11
 R12
@@ -1945,19 +1968,19 @@ R1
 R2
 R3
 R0
-Z287 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd
-Z288 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd
+Z298 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd
+Z299 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd
 l0
 L5
 Vb;[YHU0[33T3iW>0faTEM1
 !s100 7TK64^z14nVXPK]cWgS3=0
 R6
 32
-Z289 !s110 1418180529
+Z300 !s110 1418180529
 !i10b 1
-Z290 !s108 1418180529.482000
-Z291 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd|
-Z292 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd|
+Z301 !s108 1418180529.482000
+Z302 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd|
+Z303 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_32.vhd|
 !i113 1
 R11
 R12
@@ -1971,11 +1994,11 @@ Vj6oobg=Md_S?TNUXnEgQS1
 !s100 l]IKGhY:hL2aDUPV;>SB?0
 R6
 32
-R289
+R300
 !i10b 1
-R290
-R291
-R292
+R301
+R302
+R303
 !i113 1
 R11
 R12
@@ -1984,19 +2007,19 @@ R1
 R2
 R3
 R0
-Z293 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd
-Z294 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd
+Z304 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd
+Z305 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd
 l0
 L5
 V4EA6^j0IRIDB16NETgY=Y2
 !s100 UCY45ZALOU6@I^4jz3eW33
 R6
 32
-Z295 !s110 1418180530
+Z306 !s110 1418180530
 !i10b 1
-Z296 !s108 1418180530.182000
-Z297 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd|
-Z298 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd|
+Z307 !s108 1418180530.182000
+Z308 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd|
+Z309 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xnor_gate_n.vhd|
 !i113 1
 R11
 R12
@@ -2010,11 +2033,11 @@ VN80JhF1hQ^[dBKNd[M=fT3
 !s100 dDail5hL?0zna@N:=D@8b2
 R6
 32
-R295
+R306
 !i10b 1
-R296
-R297
-R298
+R307
+R308
+R309
 !i113 1
 R11
 R12
@@ -2023,19 +2046,19 @@ R1
 R2
 R3
 R0
-Z299 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd
-Z300 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd
+Z310 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd
+Z311 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd
 l0
 L5
 V>:0of;3?<Db:J2P]bLRRE1
 !s100 K_6H3f?zAK@4`dnkC2j[K2
 R6
 32
-Z301 !s110 1418180531
+Z312 !s110 1418180531
 !i10b 1
-Z302 !s108 1418180531.328000
-Z303 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd|
-Z304 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd|
+Z313 !s108 1418180531.328000
+Z314 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd|
+Z315 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate.vhd|
 !i113 1
 R11
 R12
@@ -2049,11 +2072,11 @@ V?CjQI0YRXW2fDDWch@MCZ2
 !s100 e;mL^F4ENl;O2f_Ae@3MU2
 R6
 32
-R301
+R312
 !i10b 1
-R302
-R303
-R304
+R313
+R314
+R315
 !i113 1
 R11
 R12
@@ -2062,19 +2085,19 @@ R1
 R2
 R3
 R0
-Z305 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd
-Z306 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd
+Z316 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd
+Z317 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd
 l0
 L5
 VGbk[]dcIS]^URh4W`1n2k2
 !s100 IY:zIdH0EdL@PUV4ISe5M0
 R6
 32
-Z307 !s110 1418180532
+Z318 !s110 1418180532
 !i10b 1
-Z308 !s108 1418180532.093000
-Z309 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd|
-Z310 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd|
+Z319 !s108 1418180532.093000
+Z320 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd|
+Z321 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_32.vhd|
 !i113 1
 R11
 R12
@@ -2088,11 +2111,11 @@ VzI^J^MZ^38iCSSjiao;;]1
 !s100 [@^nmEj?djZ;8jS41JD]@3
 R6
 32
-R307
+R318
 !i10b 1
-R308
-R309
-R310
+R319
+R320
+R321
 !i113 1
 R11
 R12
@@ -2101,19 +2124,19 @@ R1
 R2
 R3
 R0
-Z311 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd
-Z312 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd
+Z322 8C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd
+Z323 FC:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd
 l0
 L5
 VM9]8CicZMP;K]3l`m2zdS3
 !s100 LPoPXbzH8=CBB]^6S5Unf1
 R6
 32
-R307
+R318
 !i10b 1
-Z313 !s108 1418180532.789000
-Z314 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd|
-Z315 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd|
+Z324 !s108 1418180532.789000
+Z325 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd|
+Z326 !s107 C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/xor_gate_n.vhd|
 !i113 1
 R11
 R12
@@ -2127,11 +2150,11 @@ V_NK2YA8924hnGVNBI=DYK3
 !s100 29oXRe`]fm02Bce^Do[3m2
 R6
 32
-R307
+R318
 !i10b 1
-R313
-R314
-R315
+R324
+R325
+R326
 !i113 1
 R11
 R12

@@ -57,8 +57,8 @@ architecture struct of l2cache is
 begin
 
 	--muxes for indexes
-	set1_valid_mux : entity work.mux_4_to_1_bit
-		port map ();
+	-- set1_valid_mux : entity work.mux_4_to_1_bit
+		-- port map ();
 	
 	--and gates for detecting both valid bits and tag matches
 	and1_map : entity work.and_gate 

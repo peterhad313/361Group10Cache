@@ -26,8 +26,8 @@ port (
 	l1_hit_cnt : out std_logic_vector(31 downto 0);
 	l1_miss_cnt : out std_logic_vector(31 downto 0);
 	l1_evict_cnt : out std_logic_vector(31 downto 0);
-	l1_hit_cnt : out std_logic_vector(31 downto 0);
-	l1_miss_cnt : out std_logic_vector(31 downto 0);
-	l1_evict_cnt : out std_logic_vector(31 downto 0)
+	l2_hit_cnt : out std_logic_vector(31 downto 0);
+	l2_miss_cnt : out std_logic_vector(31 downto 0);
+	l2_evict_cnt : out std_logic_vector(31 downto 0)
 );
 end memory_hieracrchy;

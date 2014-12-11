@@ -12,7 +12,7 @@ entity l2cache is
 	hit : out std_logic;
 	miss : out std_logic;
 	writeBack : out std_logic; --eviction notice, written back to cache
-	dataOut : out std_logic_vector(2047 downto 0)
+	dataOut : out std_logic_vector(511 downto 0)
 	
 	);
 	end l2cache;
@@ -20,8 +20,10 @@ entity l2cache is
 architecture struct of l2cache is
 	
 	signal tag : std_logic_vector(21 downto 0);
-	signal setIndex : std_logic_vector (1 downto 0); --two sets
-	signal byteOffset : std_logic_vector (7 downto 0);
+	signal setIndex : std_logic_vector (1 downto 0); 
+	signal subblockIndex : std_logic_vector(1 downto 0);
+	signal sel_subblock : std_logic_vector(3 downto 0);
+	signal byteOffset : std_logic_vector (5 downto 0);
 
 	--tags from sets
 	signal set1_tag : std_logic_vector(21 downto 0);
@@ -60,12 +62,14 @@ architecture struct of l2cache is
 	--signal set1_mux, set2_mux, set3_mux, set4_mux : std_logic_vector(2047 downto 0);
 
 	signal hit_temp : std_logic;
+	signal dataOut_temp : std_logic_vector(2047 downto 0);
 	
 begin
 
 	tag<=addr(31 downto 10);
 	setIndex<=addr(9 downto 8);
-	byteOffset<=addr(7 downto 0);
+	subblockIndex<=addr(7 downto 6);
+	byteOffset<=addr(5 downto 0);
 	
 	--CSRAM storage
 	csram_1: entity work.csram
@@ -150,6 +154,12 @@ begin
 		port map(sel(0) => and1, sel(1) => and2, 
 		sel(2) => and3, sel(3) => and4,
 		src0 => set1_data(2047 downto 0), src1 => set2_data(2047 downto 0),
-		src2 => set3_data(2047 downto 0), src3 => set4_data(2047 downto 0), z => dataOut);
+		src2 => set3_data(2047 downto 0), src3 => set4_data(2047 downto 0), z => dataOut_temp);
+
+	--mux to determine subblock to output
+	dec0: entity work.dec_n generic map(n=>2) port map(src=>subblockIndex, z=>sel_subblock);
+	mux2_map : entity work.mux_4_to_1_512bit port map (
+		sel=>sel_subblock, src0=>dataOut_temp(511 downto 0), src1=>dataOut_temp(1023 downto 512), src2=>dataOut_temp(1535 downto 1024), src3=>dataOut_temp(2047 downto 1536), z=>dataOut
+		);
 		
 end struct;

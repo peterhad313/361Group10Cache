@@ -34,6 +34,6 @@ end component;
 begin 
 
   csr : csram
-    generic map (INDEX_WIDTH => 4, BIT_WIDTH => 32)
+    generic map (INDEX_WIDTH => 4, BIT_WIDTH => 512)
     port map (cs,oe,we,index,din,dout);
 end architecture ; -- struct

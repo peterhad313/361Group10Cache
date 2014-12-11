@@ -9,7 +9,7 @@ entity l2cache is
 	writeIn : in std_logic;
 	memoryValid: in std_logic;
 	dataFromL1: in std_logic_vector(511 downto 0);
-	dataFromMemory : in std_logic_vector(2047 downto 0);
+	dataFromMemory : in std_logic_vector(2069 downto 0);
 
 	
 	hit : out std_logic;
@@ -108,7 +108,7 @@ begin
 
 
 	tagged_L2 <= '1' & tag & L2_with_new_data;
-	tagged_line_from_mem <= '1'&tag&dataFromMemory;
+	tagged_line_from_mem <= '1'&dataFromMemory;
 	L1_data_in_mux_map: entity work.mux_n generic map (n => 2071) port map ( miss_temp, tagged_L2, tagged_line_from_mem, write_to_L2);
 
 	--write enable logic for a write miss

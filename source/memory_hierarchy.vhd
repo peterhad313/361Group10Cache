@@ -40,7 +40,7 @@ architecture struct of memory_hierarchy is
 	-- Temporary data signals
 	signal dataOut_L1, dataOut_caches : std_logic_vector(31 downto 0);
 	signal dataOut_L2 : std_logic_vector(511 downto 0);
-	signal dataOut_mem : std_logic_vector(2047 downto 0);
+	signal dataOut_mem : std_logic_vector(2069 downto 0);
 	--Logic signals for L1
 	signal L1_dataIn : std_logic_vector(31 downto 0);
 	signal wr_L1 : std_logic;
@@ -49,6 +49,7 @@ architecture struct of memory_hierarchy is
 	signal wr_L2 : std_logic;
 	--Logic signals for memory
 	signal MemActive : std_logic;
+	signal memtemp : std_logic;
 
 	signal L2_from_L1 : std_logic_vector(511 downto 0);
 	signal memoryValid : std_logic;
@@ -83,16 +84,16 @@ begin
 		addr=>Addr, clock=>clk, writeIn=>wr_L2, memoryValid=>memoryValid, dataFromL1=>L2_from_L1, dataFromMemory=>dataOut_mem, hit=>hit_L2, miss=>miss_L2, evict=>evict_L2, dataOut=>dataOut_L2
 		);
 
-	--Memory, SRAM for now but can be changed
+	--Memory
 	--cs (Memory active) is only set if both L1 and L2 missed
 	--Right now oe is always set, need logic for oe and we
 	and_cs: entity work.and_gate port map (
 		x=>miss_L1, y=>miss_L2, z=>MemActive
 		);
-	mem: entity work.sram 
+	mem: entity work.main_memory
 		generic map ("mem_init")
 		port map (
-			cs=>MemActive, oe=>'1', we=>'0', addr=>Addr, din=>DataIn, dout=>dataOut_mem(31 downto 0)
+			clk=>clk, reset=>miss_L2, address=>Addr, main_write=>MemActive, data_in=>dataOut_L2, data_valid_read=>memtemp, data_out_with_tag=>dataOut_Mem
 		);
 
 	--Muxes to select DataOut from data signals

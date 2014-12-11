@@ -8,16 +8,14 @@ entity l1Cache is
 	write_data : in std_logic_vector(31 downto 0);
 	writeEn : in std_logic;
    	L2_hit: in std_logic;
-   	L2_Block_In: std_logic_vector(511 downto 0);
+   	L2_Block_In: std_logic_vector(511 downto 0); --Input from L2 to write
 
 
 	hit : out std_logic;
 	miss : out std_logic;
 	evict: out std_logic;
 	dataOut: out std_logic_vector(31 downto 0);
-	data_out_to_L2: out std_logic_vector(511 downto 0);
-	Write_Main_Memory: out std_logic --Eviction notice, written back to cache
-
+	data_out_to_L2: out std_logic_vector(511 downto 0) --Output to send to L2
   ) ;
 end entity ; -- l1Cache
 

@@ -19,9 +19,9 @@ entity l2cache is
 	
 architecture struct of l2cache is
 	
-	signal tag : std_logic_vector(23 downto 0);
+	signal tag : std_logic_vector(21 downto 0);
 	signal setIndex : std_logic_vector (2 downto 0);
-	signal byteOffset : std_logic_vector (6 downto 0);
+	signal byteOffset : std_logic_vector (7 downto 0);
 	
 	--valid bits from sets
 	signal set1_valid : std_logic;
@@ -30,16 +30,16 @@ architecture struct of l2cache is
 	signal set4_valid : std_logic;
 	
 	--tags from sets
-	signal set1_tag : std_logic_vector (23 downto 0);
-	signal set2_tag : std_logic_vector (23 downto 0);
-	signal set3_tag : std_logic_vector (23 downto 0);
-	signal set4_tag : std_logic_vector (23 downto 0);
+	signal set1_tag : std_logic_vector (21 downto 0);
+	signal set2_tag : std_logic_vector (21 downto 0);
+	signal set3_tag : std_logic_vector (21 downto 0);
+	signal set4_tag : std_logic_vector (21 downto 0);
 	
 	--data from sets
-	signal set1_data : std_logic_vector (31 downto 0);
-	signal set2_data : std_logic_vector (31 downto 0);
-	signal set3_data : std_logic_vector (31 downto 0);
-	signal set4_data : std_logic_vector (31 downto 0);
+	signal set1_data : std_logic_vector (2047 downto 0);
+	signal set2_data : std_logic_vector (2047 downto 0);
+	signal set3_data : std_logic_vector (2047 downto 0);
+	signal set4_data : std_logic_vector (2047 downto 0);
 	
 	--signals from comparators to and gates
 	signal set1_match : std_logic;
@@ -54,7 +54,7 @@ architecture struct of l2cache is
 	signal and4 : std_logic;
 	
 	--signals for muxes for indexes
-	signal set1_mux, set2_mux, set3_mux, set4_mux : std_logic_vector(23 downto 0);
+	signal set1_mux, set2_mux, set3_mux, set4_mux : std_logic_vector(2047 downto 0);
 
 	signal hit_temp : std_logic;
 	
@@ -64,16 +64,40 @@ begin
 	-- set1_valid_mux : entity work.mux_4_to_1_bit
 		-- port map ();
 	
-	--and gates for detecting both valid bits and tag matches
-	and1_map : entity work.and_gate 
-		port map (x => set1_valid, y => set1_match, z => and1);
-	and2_map : entity work.and_gate 
-		port map (x => set2_valid, y => set2_match, z => and2);
-	and3_map : entity work.and_gate 
-		port map (x => set3_valid, y => set3_match, z => and3);
-	and4_map : entity work.and_gate 
-		port map (x => set4_valid, y => set4_match, z => and4);
-		
+	--CSRAM storage
+	csram_1: entity work.csram
+		generic map(
+			INDEX_WIDTH : 2
+			BIT_WIDTH : 2070
+			);
+		port map(
+			cs=>'1', oe=>'1', we=>set later, index=>addr(22 downto 0), din=>write_data, dout=>set1_data
+			);
+	csram_2:  entity work.csram
+		generic map(
+			INDEX_WIDTH : 2
+			BIT_WIDTH :	2070
+			);
+		port map(
+			cs=>'1', oe=>'1', we, index=>addr(22 downto 0), din=>write_data, dout=>set2_data
+			);
+	csram_3:  entity work.csram
+		generic map(
+			INDEX_WIDTH : 2
+			BIT_WIDTH :	2070
+			);
+		port map(
+			cs=>'1', oe=>'1', we, index=>addr(22 downto 0), din=>write_data, dout=>set3_data
+			);
+	csram_4:  entity work.csram
+		generic map(
+			INDEX_WIDTH : 2
+			BIT_WIDTH :	2070
+			);
+		port map(
+			cs=>'1', oe=>'1', we, index=>addr(22 downto 0), din=>write_data, dout=>set4_data
+			);
+
 	--comparators for comparing tags
 	comp1_map : entity work.cmp_n
 		generic map (n => 24)
@@ -87,6 +111,16 @@ begin
 	comp4_map : entity work.cmp_n
 		generic map (n => 24)
 		port map (a => addr(31 downto 8), b => set4_tag, a_eq_b => set4_match);
+
+	--and gates for detecting both valid bits and tag matches
+	and1_map : entity work.and_gate 
+		port map (x => set1_valid, y => set1_match, z => and1);
+	and2_map : entity work.and_gate 
+		port map (x => set2_valid, y => set2_match, z => and2);
+	and3_map : entity work.and_gate 
+		port map (x => set3_valid, y => set3_match, z => and3);
+	and4_map : entity work.and_gate 
+		port map (x => set4_valid, y => set4_match, z => and4);
 		
 	--or gate for hit
 	or1_map : entity work.or_4

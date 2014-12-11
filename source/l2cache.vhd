@@ -6,13 +6,13 @@ entity l2cache is
 	
 	addr : in std_logic_vector(31 downto 0);
 	clock : in std_logic;
-	write_data : in std_logic_vector(31 downto 0);
+	write_data : in std_logic_vector(2047 downto 0);
 	writeIn : in std_logic;
 	
 	hit : out std_logic;
 	miss : out std_logic;
 	writeBack : out std_logic; --eviction notice, written back to cache
-	dataOut : out std_logic_vector(31 downto 0)
+	dataOut : out std_logic_vector(2047 downto 0)
 	
 	);
 	end l2cache;
@@ -20,8 +20,14 @@ entity l2cache is
 architecture struct of l2cache is
 	
 	signal tag : std_logic_vector(21 downto 0);
-	signal setIndex : std_logic_vector (2 downto 0);
+	signal setIndex : std_logic_vector (1 downto 0); --two sets
 	signal byteOffset : std_logic_vector (7 downto 0);
+
+	--tags from sets
+	signal set1_tag : std_logic_vector(21 downto 0);
+	signal set2_tag : std_logic_vector(21 downto 0);
+	signal set3_tag : std_logic_vector(21 downto 0);
+	signal set4_tag : std_logic_vector(21 downto 0);
 	
 	--valid bits from sets
 	signal set1_valid : std_logic;
@@ -29,17 +35,11 @@ architecture struct of l2cache is
 	signal set3_valid : std_logic;
 	signal set4_valid : std_logic;
 	
-	--tags from sets
-	signal set1_tag : std_logic_vector (21 downto 0);
-	signal set2_tag : std_logic_vector (21 downto 0);
-	signal set3_tag : std_logic_vector (21 downto 0);
-	signal set4_tag : std_logic_vector (21 downto 0);
-	
 	--data from sets
-	signal set1_data : std_logic_vector (2047 downto 0);
-	signal set2_data : std_logic_vector (2047 downto 0);
-	signal set3_data : std_logic_vector (2047 downto 0);
-	signal set4_data : std_logic_vector (2047 downto 0);
+	signal set1_data : std_logic_vector (2070 downto 0);
+	signal set2_data : std_logic_vector (2070 downto 0);
+	signal set3_data : std_logic_vector (2070 downto 0);
+	signal set4_data : std_logic_vector (2070 downto 0);
 	
 	--signals from comparators to and gates
 	signal set1_match : std_logic;
@@ -52,65 +52,79 @@ architecture struct of l2cache is
 	signal and2 : std_logic;
 	signal and3 : std_logic;
 	signal and4 : std_logic;
+
+	--Logical signal
+	signal L2_write : std_logic;
 	
 	--signals for muxes for indexes
-	signal set1_mux, set2_mux, set3_mux, set4_mux : std_logic_vector(2047 downto 0);
+	--signal set1_mux, set2_mux, set3_mux, set4_mux : std_logic_vector(2047 downto 0);
 
 	signal hit_temp : std_logic;
 	
 begin
 
-	--muxes for indexes
-	-- set1_valid_mux : entity work.mux_4_to_1_bit
-		-- port map ();
+	tag<=addr(31 downto 10);
+	setIndex<=addr(9 downto 8);
+	byteOffset<=addr(7 downto 0);
 	
 	--CSRAM storage
 	csram_1: entity work.csram
 		generic map(
-			INDEX_WIDTH : 2
-			BIT_WIDTH : 2070
-			);
+			INDEX_WIDTH=>2,
+			BIT_WIDTH=>2071
+			)
 		port map(
-			cs=>'1', oe=>'1', we=>set later, index=>addr(22 downto 0), din=>write_data, dout=>set1_data
+			cs=>'1', oe=>'1', we=>L2_write, index=>setIndex, din=>write_data, dout=>set1_data
 			);
+	set1_tag<=set1_data(2069 downto 2048);
+	set1_valid<=set1_data(2070);
+
 	csram_2:  entity work.csram
 		generic map(
-			INDEX_WIDTH : 2
-			BIT_WIDTH :	2070
-			);
+			INDEX_WIDTH=>2,
+			BIT_WIDTH=>2071
+			)
 		port map(
-			cs=>'1', oe=>'1', we, index=>addr(22 downto 0), din=>write_data, dout=>set2_data
+			cs=>'1', oe=>'1', we=>L2_write, index=>setIndex, din=>write_data, dout=>set2_data
 			);
+		set2_tag<=set2_data(2069 downto 2048);
+		set2_valid<=set2_data(2070);
+
 	csram_3:  entity work.csram
 		generic map(
-			INDEX_WIDTH : 2
-			BIT_WIDTH :	2070
-			);
+			INDEX_WIDTH=>2,
+			BIT_WIDTH=>2071
+			)
 		port map(
-			cs=>'1', oe=>'1', we, index=>addr(22 downto 0), din=>write_data, dout=>set3_data
+			cs=>'1', oe=>'1', we=>L2_write, index=>setIndex, din=>write_data, dout=>set3_data
 			);
+		set3_tag<=set3_data(2069 downto 2048);
+		set3_valid<=set3_data(2070);
+
 	csram_4:  entity work.csram
 		generic map(
-			INDEX_WIDTH : 2
-			BIT_WIDTH :	2070
-			);
+			INDEX_WIDTH=>2,
+			BIT_WIDTH=>2071
+			)
 		port map(
-			cs=>'1', oe=>'1', we, index=>addr(22 downto 0), din=>write_data, dout=>set4_data
+			cs=>'1', oe=>'1', we=>L2_write, index=>setIndex, din=>write_data, dout=>set4_data
 			);
+		set4_tag<=set4_data(2069 downto 2048);
+		set4_valid<=set4_data(2070);
 
 	--comparators for comparing tags
 	comp1_map : entity work.cmp_n
-		generic map (n => 24)
-		port map (a => addr(31 downto 8), b => set1_tag, a_eq_b => set1_match);
+		generic map (n => 22)
+		port map (a => tag, b => set1_tag, a_eq_b => set1_match);
 	comp2_map : entity work.cmp_n
-		generic map (n => 24)
-		port map (a => addr(31 downto 8), b => set2_tag, a_eq_b => set2_match);
+		generic map (n => 22)
+		port map (a => tag, b => set2_tag, a_eq_b => set2_match);
 	comp3_map : entity work.cmp_n
-		generic map (n => 24)
-		port map (a => addr(31 downto 8), b => set3_tag, a_eq_b => set3_match);
+		generic map (n => 22)
+		port map (a => tag, b => set3_tag, a_eq_b => set3_match);
 	comp4_map : entity work.cmp_n
-		generic map (n => 24)
-		port map (a => addr(31 downto 8), b => set4_tag, a_eq_b => set4_match);
+		generic map (n => 22)
+		port map (a => tag, b => set4_tag, a_eq_b => set4_match);
 
 	--and gates for detecting both valid bits and tag matches
 	and1_map : entity work.and_gate 
@@ -132,10 +146,10 @@ begin
 		port map (x => hit_temp, z=>miss);
 
 	--mux for final data selection
-	mux1_map : entity work.mux_4_to_1_32bit
+	mux1_map : entity work.mux_4_to_1_2048bit
 		port map(sel(0) => and1, sel(1) => and2, 
 		sel(2) => and3, sel(3) => and4,
-		src0 => set1_data, src1 => set2_data,
-		src2 => set3_data, src3 => set4_data, z => dataOut);
+		src0 => set1_data(2047 downto 0), src1 => set2_data(2047 downto 0),
+		src2 => set3_data(2047 downto 0), src3 => set4_data(2047 downto 0), z => dataOut);
 		
 end struct;

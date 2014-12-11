@@ -52,7 +52,7 @@ architecture struct of memory_hierarchy is
 	signal memtemp : std_logic;
 
 	signal L2_from_L1 : std_logic_vector(511 downto 0);
-	signal memoryValid : std_logic;
+	signal memoryValid, memReset: std_logic;
 
 begin
 	--Set temp counter signals
@@ -71,7 +71,7 @@ begin
 	or_wrL1: entity work.or_gate port map(
 		x=>WR, y=>wr_temp_L1, z=>wr_L1
 		);
-	L1: entity work.l1Cache port map (
+	L5: entity work.l1Cache port map (
 		clock=>clk, addr=>Addr, write_data=>L1_dataIn, writeEn=>wr_L1, L2_hit=>hit_L2, L2_Block_In=>dataOut_L2, hit=>hit_L1, miss=>miss_L1, evict=>evict_L1, dataOut=>dataOut_L1, data_out_to_L2=>L2_from_L1
 		);
 
@@ -90,10 +90,11 @@ begin
 	and_cs: entity work.and_gate port map (
 		x=>miss_L1, y=>miss_L2, z=>MemActive
 		);
+	dff: entity work.dff port map(clk,miss_L2,memReset);
 	mem: entity work.main_memory
 		generic map ("mem_init")
 		port map (
-			clk=>clk, reset=>miss_L2, address=>Addr, main_write=>MemActive, data_in=>dataOut_L2, data_valid_read=>memtemp, data_out_with_tag=>dataOut_Mem
+			clk=>clk, reset=>memReset, address=>Addr, main_write=>MemActive, data_in=>dataOut_L2, data_valid_read=>memtemp, data_out_with_tag=>dataOut_Mem
 		);
 
 	--Muxes to select DataOut from data signals
@@ -108,9 +109,7 @@ begin
 	dataOut<=dataout_L1;
 
 	--OR gate to decide if Data is ready: this logic will need to change as design complexity increases
-	or_ready: entity work.or_3 port map (
-		a=>hit_L1, b=>hit_L2, c=>MemActive
-		);
+	--or_ready: entity work.or_3 port map (a=>hit_L1, b=>hit_L2, c=>MemActive);
 
 	--Increment counters
 	inc_hitL1: entity work.fulladder_32 port map  (
@@ -131,5 +130,6 @@ begin
 	inc_evictL2: entity work.fulladder_32 port map  (
 		cin=>evict_L2, x=>l2_evict_cnt_temp, y=>x"00000000", z=>l2_evict_cnt
 		);
+Ready<=hit_L1;
 
 end struct ; -- struct

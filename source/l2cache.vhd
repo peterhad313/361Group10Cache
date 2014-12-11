@@ -70,7 +70,7 @@ architecture struct of l2cache is
 	signal L2_write : std_logic;
 	
 	--signals for writing
-	signal write_data : std_logic_vector(2047 downto 0);
+	signal write_data : std_logic_vector(2071 downto 0);
 
 	signal hit_temp : std_logic;
 	signal miss_temp : std_logic;
@@ -84,6 +84,8 @@ architecture struct of l2cache is
 	signal write_to_L2,tagged_L2,tagged_line_from_mem: std_logic_vector (2070 downto 0);
     --masks and stuff used for writing
     signal dataMask,clearMask,invertedClearMask,selectivlyClearedLine,L2_with_new_data: std_logic_vector (2047 downto 0);
+
+    signal temp2070_1,temp2070_2,temp2070_3,temp2070_4,temp2070_5,temp2070_6, zeros_2070,dataFromCorrectSet: std_logic_vector(2070 downto 0);
 	
 begin
 
@@ -133,7 +135,7 @@ begin
 			BIT_WIDTH=>2071
 			)
 		port map(
-			cs=>'1', oe=>'1', we=>set1_write, index=>setIndex, din=>write_data, dout=>set1_data
+			cs=>'1', oe=>'1', we=>set1_write, index=>setIndex, din=>write_to_L2, dout=>set1_data
 			);
 	set1_tag<=set1_data(2069 downto 2048);
 	set1_valid<=set1_data(2070);
@@ -144,7 +146,7 @@ begin
 			BIT_WIDTH=>2071
 			)
 		port map(
-			cs=>'1', oe=>'1', we=>set2_write, index=>setIndex, din=>write_data, dout=>set2_data
+			cs=>'1', oe=>'1', we=>set2_write, index=>setIndex, din=>write_to_L2, dout=>set2_data
 			);
 		set2_tag<=set2_data(2069 downto 2048);
 		set2_valid<=set2_data(2070);
@@ -155,7 +157,7 @@ begin
 			BIT_WIDTH=>2071
 			)
 		port map(
-			cs=>'1', oe=>'1', we=>set3_write, index=>setIndex, din=>write_data, dout=>set3_data
+			cs=>'1', oe=>'1', we=>set3_write, index=>setIndex, din=>write_to_L2, dout=>set3_data
 			);
 		set3_tag<=set3_data(2069 downto 2048);
 		set3_valid<=set3_data(2070);
@@ -166,7 +168,7 @@ begin
 			BIT_WIDTH=>2071
 			)
 		port map(
-			cs=>'1', oe=>'1', we=>set4_write, index=>setIndex, din=>write_data, dout=>set4_data
+			cs=>'1', oe=>'1', we=>set4_write, index=>setIndex, din=>write_to_L2, dout=>set4_data
 			);
 		set4_tag<=set4_data(2069 downto 2048);
 		set4_valid<=set4_data(2070);
@@ -200,10 +202,21 @@ begin
 		port map (a =>  and1, b => and2, c => and3, d => and4, z => hit_temp);
 	hit<=hit_temp;
 
+zeros_2070<=X"0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"&B"000";
+	mux5: entity work.mux_n generic map (n=>2071) port map (set1_match, zeros_2070, set1_data,temp2070_1);
+	mux6: entity work.mux_n generic map (n=>2071) port map (set2_match, zeros_2070, set2_data,temp2070_2);
+	mux7: entity work.mux_n generic map (n=>2071) port map (set3_match, zeros_2070, set3_data,temp2070_3);
+	mux8: entity work.mux_n generic map (n=>2071) port map (set4_match, zeros_2070, set4_data,temp2070_4);
+
+	or10: entity work.or_gate_n generic map (n=>2071) port map (temp2070_1, temp2070_2, temp2070_5);
+	or11: entity work.or_gate_n generic map (n=>2071) port map (temp2070_3, temp2070_4, temp2070_6);
+	or12: entity work.or_gate_n generic map (n=>2071) port map (temp2070_5, temp2070_6, dataFromCorrectSet);
 	--not gate for miss
 	not_hit : entity work.not_gate
 		port map (x => hit_temp, z=>miss_temp);
 	miss<=miss_temp;
+
+	a1: entity work.and_gate port map (miss_temp, dataFromCorrectSet(2070), evict);
 
 	--mux for final data selection
 	mux1_map : entity work.mux_4_to_1_2048bit

@@ -25,9 +25,9 @@ architecture struct of l1Cache is
     signal indexFromAddr: std_logic_vector ( 3 downto 0);
     signal offsetFromAddr, offset_inv, output_shift_amount: std_logic_vector ( 5 downto 0);
 
-    signal L1_Line_Out,tagged_L2_in,tagged_L1_with_new_data: std_logic_vector (534 downto 0);
+    signal L1_Line_Out,tagged_L2_in,tagged_L1_with_new_data,write_to_L1: std_logic_vector (534 downto 0);
 
-    signal L1_Line_Out_Data,shifted_L1_Out,write_to_L1,shiftTemp0,shiftTemp1: std_logic_vector ( 511 downto 0);
+    signal L1_Line_Out_Data,shifted_L1_Out,shiftTemp0,shiftTemp1: std_logic_vector ( 511 downto 0);
     signal validFromL1, tag_match, tag_miss: std_logic;
 
     --masks and stuff used for writing
@@ -57,7 +57,8 @@ Comparator_L1: entity work.cmp_n generic map ( n => 22 ) port map ( a => L1_curr
 n1: entity work.not_gate port map (tag_match, tag_miss);
 hit <= tag_match;
 miss <= tag_miss;
-
+evict<=tag_miss;
+data_out_to_L2<=L1_Line_Out(511 downto 0);
 
 --create masks to clear and then write
 shiftTemp0 <= X"000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" & write_data;

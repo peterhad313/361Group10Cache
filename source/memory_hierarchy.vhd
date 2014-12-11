@@ -42,6 +42,7 @@ architecture struct of memory_hierarchy is
 	--Logic signals for L1
 	signal L1_dataIn : std_logic_vector(31 downto 0);
 	signal wr_L1 : std_logic;
+	signal wr_temp_L1: std_logic;
 	--Logic signals for L2
 	signal wr_L2 : std_logic;
 	--Logic signals for memory
@@ -62,20 +63,23 @@ begin
 		sel=>WR, src0=>dataOut_L2, src1=>DataIn, z=>L1_dataIn
 		);
 	--Level 1 cache writes if the write signal is applied or if it misses and needs to be written into
+	and_wrL1: entity work.and_gate port map(
+		x=>miss_L1, y=>hit_L2, z=>wr_temp_L1
+		);
 	or_wrL1: entity work.or_gate port map(
-		x=>WR, y=>miss_L1, z=>wr_L1
+		x=>WR, y=>wr_temp_L1, z=>wr_L1
 		);
 	L1: entity work.l1Cache port map (
-		clock=>clk, addr=>Addr, write_data=>L1_dataIn, writeEn=>WR, hit=>hit_L1, miss=>miss_L1, dataOut=>dataOut_L1, writeBack=>evict_L1
+		clock=>clk, addr=>Addr, write_data=>L1_dataIn, writeEn=>WR, hit=>hit_L1, miss=>miss_L1, dataOut=>dataOut_L1, evict=>evict_L1
 		);
 
 	--Level 2 cache, gets initial Addr and Data_In
-	--Only receives write signal if there is a miss or if the WR is set
+	--Only receives write signal if there is a miss or if there is an eviction from L1
 	and_wrL2: entity work.and_gate port map (
-		x=>miss_L2, y=>WR, z=>wr_L2
+		x=>miss_L2, y=>evict_L1, z=>wr_L2
 		);
 	L2: entity work.l2cache port map (
-		addr=>Addr, clock=>clk, write_data=>dataOut_mem, writeIn=>wr_L2, hit=>hit_L2, miss=>miss_L2, writeBack=>evict_L2, dataOut=>dataOut_L2
+		addr=>Addr, clock=>clk, write_data=>dataOut_mem, writeIn=>wr_L2, hit=>hit_L2, miss=>miss_L2, evict=>evict_L2, dataOut=>dataOut_L2
 		);
 
 	--Memory, SRAM for now but can be changed

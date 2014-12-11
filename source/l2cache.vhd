@@ -6,8 +6,11 @@ entity l2cache is
 	
 	addr : in std_logic_vector(31 downto 0);
 	clock : in std_logic;
-	write_data : in std_logic_vector(2047 downto 0);
 	writeIn : in std_logic;
+	memoryValid: in std_logic;
+	dataFromL1: in std_logic_vector(511 downto 0);
+	dataFromMemory : in std_logic_vector(2047 downto 0);
+
 	
 	hit : out std_logic;
 	miss : out std_logic;

@@ -7,15 +7,13 @@ entity l1Cache is
 	addr  : in std_logic_vector (31 downto 0);
 	write_data : in std_logic_vector(31 downto 0);
 	writeEn : in std_logic;
-	Memory_Valid_Write: in std_logic;
- 	Memory_Block_Data_Valid : in std_logic;
    	L2_hit: in std_logic;
-   	Enable: in std_logic;
    	L2_Block_In: std_logic_vector(511 downto 0);
 
 
 	hit : out std_logic;
 	miss : out std_logic;
+	evict: out std_logic;
 	dataOut: out std_logic_vector(31 downto 0);
 	data_out_to_L2: out std_logic_vector(511 downto 0);
 	Write_Main_Memory: out std_logic --Eviction notice, written back to cache
@@ -77,7 +75,7 @@ or_map_L1: entity work.or_gate_n generic map (n=>512) port map (selectivlyCleare
 
 tagged_L2_in <= '0' & tagFromAddr & L2_Block_In;
 tagged_L1_with_new_data <= '1'&tagFromAddr&L1_with_new_data;
-L1_data_in_mux_map: entity work.mux_n generic map (n => 535) port map ( REPLACETHIS, tagged_L1_with_new_data, tagged_L2_in, write_to_L1);
+L1_data_in_mux_map: entity work.mux_n generic map (n => 535) port map ( writeEn, tagged_L1_with_new_data, tagged_L2_in, write_to_L1);
 
 --add tag and valid to write
 

@@ -1,4 +1,16 @@
-C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd
+C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_24bit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_4_to_1_24bit
+-- Compiling architecture struct of mux_4_to_1_24bit
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux_24
+-- Loading entity or_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/cmp_n.vhd
 Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -95,28 +107,32 @@ Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 
 -- Compiling entity and_gate
 -- Compiling architecture dataflow of and_gate
 
-} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd {0 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/mux_4_to_1_32bit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_4_to_1_32bit
+-- Compiling architecture struct of mux_4_to_1_32bit
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Loading entity mux_32
+-- Loading entity or_gate
+
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd
 Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity l2cache
 -- Compiling architecture struct of l2cache
--- Loading entity mux_16_to_1_bit
-** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(61): near ")": syntax error
-** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(64): Statement cannot be labeled.
 -- Loading entity and_gate
 -- Loading package NUMERIC_STD
 -- Loading entity cmp_n
 -- Loading entity or_4
-** Error: (vcom-11) Could not find work.mux_4_to_1_32bit.
+-- Loading entity mux_4_to_1_32bit
 
-** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(92): (vcom-1195) Cannot find expanded name "work.mux_4_to_1_32bit".
-
-** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(92): Unknown expanded name.
-** Error: C:/Users/Marcus/Documents/GitHub/361Group10Cache/source/l2cache.vhd(98): VHDL Compiler exiting
-
-} {9.0 11.0 15.0 16.0 17.0 18.0 19.0 21.0} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd
+} {} {}} C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Marcus/Documents/GitHub/361Group10Cache/lib/and_gate_n.vhd
 Model Technology ModelSim PE Student Edition vcom 10.3b Compiler 2014.06 Jun  2 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO

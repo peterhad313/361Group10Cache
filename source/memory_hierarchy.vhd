@@ -34,7 +34,9 @@ end memory_hierarchy;
 
 architecture struct of memory_hierarchy is 
 	-- Signals for hits and misses
-	signal hit_L1, hit_L2, miss_L1, miss_L2 : std_logic;
+	signal hit_L1, hit_L2, miss_L1, miss_L2, evict_L1, evict_L2 : std_logic;
+	--Counter signals
+	signal l1_hit_cnt_temp, l1_miss_cnt_temp, l1_evict_cnt_temp, l2_hit_cnt_temp, l2_miss_cnt_temp, l2_evict_cnt_temp : std_logic_vector(31 downto 0);
 	-- Temporary data signals
 	signal dataOut_L1, dataOut_L2, dataOut_caches, dataOut_mem : std_logic_vector(31 downto 0);
 	--Logic signals for L2
@@ -43,9 +45,16 @@ architecture struct of memory_hierarchy is
 	signal MemActive : std_logic;
 
 begin
+	--Set temp counter signals
+	l1_hit_cnt_temp<=x"00000000";
+	l1_miss_cnt_temp<=x"00000000";
+	l1_evict_cnt_temp<=x"00000000";
+	l2_hit_cnt_temp<=x"00000000";
+	l2_miss_cnt_temp<=x"00000000";
+	l2_evict_cnt_temp<=x"00000000";
 	--Level 1 cache
 	L1: entity work.l1Cache port map (
-		clock=>clk, addr=>Addr, write_data=>DataIn, writeEn=>WR, hit=>hit_L1, miss=>miss_L1, dataOut=>dataOut_L1 --writeBack is not specified
+		clock=>clk, addr=>Addr, write_data=>DataIn, writeEn=>WR, hit=>hit_L1, miss=>miss_L1, dataOut=>dataOut_L1, writeBack=>evict_L1
 		);
 
 	--Level 2 cache, gets initial Addr and Data_In
@@ -54,7 +63,7 @@ begin
 		x=>miss_L1, y=>WR, z=>wr_L2
 		);
 	L2: entity work.l2cache port map (
-		addr=>Addr, clock=>clk, write_data=>DataIn, writeIn=>wr_L2, hit=>hit_L2, miss=>miss_L2, dataOut=>dataOut_L2
+		addr=>Addr, clock=>clk, write_data=>DataIn, writeIn=>wr_L2, hit=>hit_L2, miss=>miss_L2, writeBack=>evict_L2, dataOut=>dataOut_L2
 		);
 
 	--Memory, SRAM for now but can be changed
@@ -64,7 +73,7 @@ begin
 		x=>miss_L1, y=>miss_L2, z=>MemActive
 		);
 	mem: entity work.sram 
-		generic map ("something")
+		generic map ("mem_init")
 		port map (
 			cs=>MemActive, oe=>'1', we=>'0', addr=>Addr, din=>DataIn, dout=>dataOut_mem
 		);
@@ -82,6 +91,26 @@ begin
 	--OR gate to decide if Data is ready: this logic will need to change as design complexity increases
 	or_ready: entity work.or_3 port map (
 		a=>hit_L1, b=>hit_L2, c=>MemActive
+		);
+
+	--Increment counters
+	inc_hitL1: entity work.fulladder_32 port map  (
+		cin=>hit_L1, x=>l1_hit_cnt_temp, y=>x"00000000", z=>l1_hit_cnt
+		);
+	inc_missL1: entity work.fulladder_32 port map  (
+		cin=>miss_L1, x=>l1_miss_cnt_temp, y=>x"00000000", z=>l1_miss_cnt
+		);
+	inc_evictL1: entity work.fulladder_32 port map  (
+		cin=>evict_L1, x=>l1_evict_cnt_temp, y=>x"00000000", z=>l1_evict_cnt
+		);
+	inc_hitL2: entity work.fulladder_32 port map  (
+		cin=>hit_L2, x=>l2_hit_cnt_temp, y=>x"00000000", z=>l2_hit_cnt
+		);
+	inc_missL2: entity work.fulladder_32 port map  (
+		cin=>miss_L2, x=>l2_miss_cnt_temp, y=>x"00000000", z=>l2_miss_cnt
+		);
+	inc_evictL2: entity work.fulladder_32 port map  (
+		cin=>evict_L2, x=>l2_evict_cnt_temp, y=>x"00000000", z=>l2_evict_cnt
 		);
 
 end struct ; -- struct

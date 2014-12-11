@@ -11,6 +11,7 @@ entity l2cache is
 	
 	hit : out std_logic;
 	miss : out std_logic;
+	writeBack : out std_logic; --eviction notice, written back to cache
 	dataOut : out std_logic_vector(31 downto 0)
 	
 	);

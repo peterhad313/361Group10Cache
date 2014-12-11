@@ -11,7 +11,7 @@ entity l1Cache is
 	hit : out std_logic;
 	miss : out std_logic;
 	dataOut: out std_logic_vector(31 downto 0);
-	writeBack: out std_logic
+	writeBack: out std_logic --Eviction notice, written back to cache
 
   ) ;
 end entity ; -- l1Cache

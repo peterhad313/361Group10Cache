@@ -5,8 +5,8 @@ use ieee.std_logic_1164.all;
 
 entity shift_32_512 is
 	port (
-		x: 	in std_logic_vector(511 downto 0); -- 512-bit input data
-		y: 	in std_logic_vector(3 downto 0);  -- Position to be shifted (activate with 1)
+		x: 	in std_logic_vector(511 downto 0);
+		y: 	in std_logic_vector(3 downto 0);  
 		z: 	out std_logic_vector(511 downto 0) -- Output
 	);
 end shift_32_512;
